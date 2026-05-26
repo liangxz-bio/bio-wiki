@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-05-22 | Total pages: 187 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 187 pages -->
+> Last updated: 2026-05-26 | Total pages: 190 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 190 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -56,6 +56,7 @@
 ||- [[wisecondorx]] — 浅层全基因组CNV检测，WISECONDOR归一化改进，NIPT/肿瘤/生信流程
 |- [[ws-hla-genotyping-standard]] — HLA 基因分型检测体系技术标准，SSP/SSO/SBT 三种方法、QC体系、环境与人员要求
 ## Concepts
+- [[ai-evolution-complementary-protein-engineering]] — 进化+AI互补蛋白工程范式：定向进化管活性、AI逆折叠管稳定性，PE8系列先导编辑器50%体内效率证实，ProteinMPNN修"地基"不碰催化核心（David Liu, Nat Biotechnol 2026）
 - [[as-neoantigen-hcc-vaccine]] — AS来源新抗原的肝癌通用型mRNA疫苗，AS事件丰度为突变59倍，覆盖50.94% HCC患者，TAPi抗原绕过62%患者TAP缺陷（Zhao H, Cell Res 2025）
 - [[bayesian-optimization]] — Bayesian Optimization 贝叶斯优化：GP/RF代理模型、EI/PI/UCB采集函数、RF+BO超参数调优、与Grid/Random Search对比
 - [[scrnaseq-workflow]] — scRNA-seq 标准化分析流程：湿实验建库、生信分析、降维聚类、细胞注释、差异分析、临床转化
@@ -125,6 +126,7 @@
 |- [[raw/articles/DrugCLIP-MCLM-对比学习-AIDD-arXiv2026]] — CLIPP-SET/MCLM 对比 3D 蛋白-配体学习 + 条件分子生成，SET SE(3)等变transformer/CF-InfoNCE/dataset token，scaffold hopping检索优于Morgan FP（arXiv 2026 Acellera/UPF，陷入鞍点）
 |- [[raw/papers/hou2026-seqdance-esmdance-pnas]] — SeqDance/ESMDance 基于 MD 动力学预训练的 pLM 原始论文：Transformer 编码残基共运动/全局构象，零样本预测设计蛋白/病毒蛋白突变效应（Hou C, PNAS 2026）
 |- [[raw/articles/ORI-腾讯AI4S蛋白设计闭环-NatureComm2026]] — ORI 腾讯 AI4S 本体强化迭代蛋白设计闭环，PDA + PGM + USM + RLWF，溶菌酶/几丁质酶/双功能酶实验验证，TX-RL15 活性超天然溶菌酶两个数量级（He B, Nat Commun 2026，微信公众号·AI药物设计实验室）
+|- [[raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场]] — 刘如谦组 Nat Biotechnol 2026：定向进化越改越脆、AI蛋白设计（ProteinMPNN）救场，PE8系列 2.0-2.3x 表达 +8°C Tm，体内编辑44% vs PE7 25%，"进化打底、AI加固"互补范式（BioTender观测日志）
 
 ### bioinfo-pipeline
 - [[raw/articles/scMethCraft-单细胞DNA甲基化统一分析框架-NatCommun2026]] — scMethCraft 单细胞 DNA 甲基化统一分析框架，混合神经网络+KAN 序列特征融合+迭代相似性加权，NA 原生处理，降维/聚类/批次整合/增强/DMR 全流程（Nat Commun 2026，微信公众号·生信钱同学）

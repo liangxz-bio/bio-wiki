@@ -219,104 +219,104 @@
 - Created: concepts/ont-sv-analysis.md — ONT SV 流程概念页，含流程概览表格+核心工具参数+与 PacBio HiFi 对比表，交叉引用 [[sv-analysis-pacbio-hifi]]
 - Updated: index.md (total 47, added concept + raw article entries)
 
-|
-|## [2026-05-09] ingest | Yuan & Bluth 2025 新一代病毒疫苗策略 (Vaccines 2025)
-|
-|### raw/papers
-|- raw/papers/yuan2025-nextgen-vaccines-vaccines.md — MinerU (magic-pdf) full text, 373行, 3张图
-|  - Yuan F, Bluth MH. Vaccines 2025, 13, 979. doi:10.3390/vaccines13090979
-|  - 四大方向: 结构抗原工程 / mRNA+LNP / 佐剂系统 / 免疫印记 + anti-idiotypic
-|  - domain: vaccine-design
-|
-|### images
-|- yuan2025-fig1-mrna-types-delivery.jpg — Fig 1: mRNA 类型与递送系统
-|- yuan2025-fig2-immune-imprinting.jpg — Fig 2: SARS-CoV-2 免疫印记
-|- yuan2025-fig3-anti-idiotypic.jpg — Fig 3: 抗独特型疫苗策略
-|- 3个 orphan (子图) 存档至 _orphans/
-|- MAPPING.md 已建
-|
-|### concepts
-|- Created: concepts/nextgen-vaccine-strategies.md — 新一代病毒疫苗设计四大策略概念页
-|  - 核心发现链: 结构工程 → mRNA 平台 → 佐剂 → 免疫印记应对
-|  - 交叉引用: [[virus-vaccine-pipeline]] 管线
-|
-|### SCHEMA.md
-|- Added domain: `vaccine-design` + tag taxonomy: immunology/vaccine, platform, vaccine-strategy
-|
-|### index.md: 新增2条 (raw + concept)，总页数 54，添加 vaccine-design domain
-|
-|
-|## [2026-05-09] ingest | mRNA疫苗相关文章 × 2 (微信公众号)
-|
-|### raw/articles
-|- raw/articles/mRNA肿瘤个性化疫苗-从计算设计到临床转化.md (217行)
-|  - 微信公众号 TGENES, 作者马伯君
-|  - 内容: 肿瘤mRNA个性化疫苗全流程 — 新抗原发现→计算设计→LNP/mRNA→临床验证
-|  - domain: vaccine-design
-|- raw/articles/Cell经典研究-Moderna寨卡病毒mRNA疫苗的设计.md (109行)
-|  - 微信公众号 耀菌君
-|  - 内容: Moderna ZIKV mRNA 疫苗设计 — 天然构象 vs 融合前构象策略、LNP 递送、小鼠模型
-|  - domain: vaccine-design
-|
-|### index.md: vaccine-design 新增2条 raw articles
-|### SCHEMA.md未改 (vaccine-design domain 已存在)
-|
-|
-|## [2026-05-09] ingest | 疫苗相关PDF × 3 (Cao 广谱疫苗 / Zheng DHODH / Zhong 重组蛋白)
-|
-|### raw/papers
-|- raw/papers/cao2025-broad-vaccines.md (302行, 4图)
-|  - Cao M, Li Y, Song X, et al. Broad-spectrum vaccines (J Virol 2025, jvi.00997-25)
-|  - 核心: 结构抗原工程(2P/DS-Cav1/SOSIP) → 纳米颗粒(I53-50/MI3/mosaic-8) → mRNA+VLP → 靶向递送
-|  - domain: vaccine-design
-|- raw/papers/zheng2022-dhodh-antivirals.md (275行, 3图)
-|  - Zheng Y, Li S, Song K, Ye J, Li W, Zhong Y, Feng Z, Liang S, Cai Z, Xu K (Viruses 2022, 14, 928)
-|  - 注: 非疫苗, 是宿主靶向广谱抗病毒 (DHODH 抑制剂), 但徐可团队也做重组蛋白疫苗 (见下篇)
-|  - domain: vaccine-design
-|- raw/papers/zhong2024-recomb-vaccine-progress.md (360行, 3图)
-|  - 钟一帆, 袁为锋, 徐可. 病毒性传染病的重组蛋白疫苗研究进展 (武汉大学学报 2024)
-|  - 核心: 免疫原设计三类(偶联/工程化/重构) + 表达纯化(CHO/酵母/E.coli) + 规模化生产(反应器/细胞工厂)
-|  - domain: vaccine-design
-|
-|### images
-|- cao2025-fig1~4: 疫苗发展里程碑/纳米颗粒类型/mRNA-VLP联用/靶向递送
-|- zheng2022-fig1~3: 嘧啶通路/DHODHi三机制/结合位点
-|- zhong2024-fig1~3: 疫苗分类/重组蛋白制备/表达流程
-|- 共8个 orphan 存档至 _orphans/
-|- MAPPING.md 全面更新（4篇论文索引）
-|
-|### index.md: vaccine-design 新增3条 raw papers，总页数 57
-|
-|
-|## [2026-05-09] ingest | SpaNiche 空间转录组共定位分析 (Genome Biol 2026)
-|
-|### raw/articles
-|- raw/articles/SpaNiche-空间转录组共定位与互作分析框架-GenomeBiology.md (115行)
-|  - Huang S, Ran Q, Tang J, Wang X, Xi J, Ma S, Xi R. Genome Biol 2026
-|  - 微信公众号「TOP生物信息」(TOP菌)
-|  - 核心: Niche识别→共定位评分(LR/PD/BK/LS) → 细胞互作推断 → 空间可视化
-|  - domain: bioinfo-pipeline
-|
-|### index.md: bioinfo-pipeline 新增1条，总页数 58
-|
-|
-|## [2026-05-09] ingest | Jiang DUV LED 呼吸道 RNA 病毒灭活 (Opto-Electron Adv 2023)
-|
-|### raw/papers
-|- raw/papers/jiang2023-duv-led-virus-inactivation.md (254行, 6图)
-|  - Jiang K, Liang SM, Sun XJ, Ben JW, Qu L, Zhang SL, Chen Y, Zheng YC, Lan K, Li DB, Xu K
-|  - Opto-Electronic Advances 2023, 6, 230004. doi:10.29026/oea.2023.230004
-|  - 核心: HTA AlN/Sapphire 模板上生长的深紫外 LED → 灭活 IAV > 99.99% + SARS-CoV-2 > 99.99%
-|  - 机制: 破坏病毒 RNA 完整性 (RT-qPCR 验证 RNA 水平显著下降)
-|  - 注: 徐可团队 (徐可也为 zheng2022 和 zhong2024 通讯作者)
-|  - domain: vaccine-design
-|
-|### images
-|- 6张参考图 (AlGaN 外延/DUV LED 结构/病毒灭活/RNA 水平)
-|- 2个 orphan 存档
-|- MAPPING.md 已追加
-|
-|### index.md: vaccine-design 新增1条，总页数 59
+
+## [2026-05-09] ingest | Yuan & Bluth 2025 新一代病毒疫苗策略 (Vaccines 2025)
+
+### raw/papers
+- raw/papers/yuan2025-nextgen-vaccines-vaccines.md — MinerU (magic-pdf) full text, 373行, 3张图
+  - Yuan F, Bluth MH. Vaccines 2025, 13, 979. doi:10.3390/vaccines13090979
+  - 四大方向: 结构抗原工程 / mRNA+LNP / 佐剂系统 / 免疫印记 + anti-idiotypic
+  - domain: vaccine-design
+
+### images
+- yuan2025-fig1-mrna-types-delivery.jpg — Fig 1: mRNA 类型与递送系统
+- yuan2025-fig2-immune-imprinting.jpg — Fig 2: SARS-CoV-2 免疫印记
+- yuan2025-fig3-anti-idiotypic.jpg — Fig 3: 抗独特型疫苗策略
+- 3个 orphan (子图) 存档至 _orphans/
+- MAPPING.md 已建
+
+### concepts
+- Created: concepts/nextgen-vaccine-strategies.md — 新一代病毒疫苗设计四大策略概念页
+  - 核心发现链: 结构工程 → mRNA 平台 → 佐剂 → 免疫印记应对
+  - 交叉引用: [[virus-vaccine-pipeline]] 管线
+
+### SCHEMA.md
+- Added domain: `vaccine-design` + tag taxonomy: immunology/vaccine, platform, vaccine-strategy
+
+### index.md: 新增2条 (raw + concept)，总页数 54，添加 vaccine-design domain
+
+
+## [2026-05-09] ingest | mRNA疫苗相关文章 × 2 (微信公众号)
+
+### raw/articles
+- raw/articles/mRNA肿瘤个性化疫苗-从计算设计到临床转化.md (217行)
+  - 微信公众号 TGENES, 作者马伯君
+  - 内容: 肿瘤mRNA个性化疫苗全流程 — 新抗原发现→计算设计→LNP/mRNA→临床验证
+  - domain: vaccine-design
+- raw/articles/Cell经典研究-Moderna寨卡病毒mRNA疫苗的设计.md (109行)
+  - 微信公众号 耀菌君
+  - 内容: Moderna ZIKV mRNA 疫苗设计 — 天然构象 vs 融合前构象策略、LNP 递送、小鼠模型
+  - domain: vaccine-design
+
+### index.md: vaccine-design 新增2条 raw articles
+### SCHEMA.md未改 (vaccine-design domain 已存在)
+
+
+## [2026-05-09] ingest | 疫苗相关PDF × 3 (Cao 广谱疫苗 / Zheng DHODH / Zhong 重组蛋白)
+
+### raw/papers
+- raw/papers/cao2025-broad-vaccines.md (302行, 4图)
+  - Cao M, Li Y, Song X, et al. Broad-spectrum vaccines (J Virol 2025, jvi.00997-25)
+  - 核心: 结构抗原工程(2P/DS-Cav1/SOSIP) → 纳米颗粒(I53-50/MI3/mosaic-8) → mRNA+VLP → 靶向递送
+  - domain: vaccine-design
+- raw/papers/zheng2022-dhodh-antivirals.md (275行, 3图)
+  - Zheng Y, Li S, Song K, Ye J, Li W, Zhong Y, Feng Z, Liang S, Cai Z, Xu K (Viruses 2022, 14, 928)
+  - 注: 非疫苗, 是宿主靶向广谱抗病毒 (DHODH 抑制剂), 但徐可团队也做重组蛋白疫苗 (见下篇)
+  - domain: vaccine-design
+- raw/papers/zhong2024-recomb-vaccine-progress.md (360行, 3图)
+  - 钟一帆, 袁为锋, 徐可. 病毒性传染病的重组蛋白疫苗研究进展 (武汉大学学报 2024)
+  - 核心: 免疫原设计三类(偶联/工程化/重构) + 表达纯化(CHO/酵母/E.coli) + 规模化生产(反应器/细胞工厂)
+  - domain: vaccine-design
+
+### images
+- cao2025-fig1~4: 疫苗发展里程碑/纳米颗粒类型/mRNA-VLP联用/靶向递送
+- zheng2022-fig1~3: 嘧啶通路/DHODHi三机制/结合位点
+- zhong2024-fig1~3: 疫苗分类/重组蛋白制备/表达流程
+- 共8个 orphan 存档至 _orphans/
+- MAPPING.md 全面更新（4篇论文索引）
+
+### index.md: vaccine-design 新增3条 raw papers，总页数 57
+
+
+## [2026-05-09] ingest | SpaNiche 空间转录组共定位分析 (Genome Biol 2026)
+
+### raw/articles
+- raw/articles/SpaNiche-空间转录组共定位与互作分析框架-GenomeBiology.md (115行)
+  - Huang S, Ran Q, Tang J, Wang X, Xi J, Ma S, Xi R. Genome Biol 2026
+  - 微信公众号「TOP生物信息」(TOP菌)
+  - 核心: Niche识别→共定位评分(LR/PD/BK/LS) → 细胞互作推断 → 空间可视化
+  - domain: bioinfo-pipeline
+
+### index.md: bioinfo-pipeline 新增1条，总页数 58
+
+
+## [2026-05-09] ingest | Jiang DUV LED 呼吸道 RNA 病毒灭活 (Opto-Electron Adv 2023)
+
+### raw/papers
+- raw/papers/jiang2023-duv-led-virus-inactivation.md (254行, 6图)
+  - Jiang K, Liang SM, Sun XJ, Ben JW, Qu L, Zhang SL, Chen Y, Zheng YC, Lan K, Li DB, Xu K
+  - Opto-Electronic Advances 2023, 6, 230004. doi:10.29026/oea.2023.230004
+  - 核心: HTA AlN/Sapphire 模板上生长的深紫外 LED → 灭活 IAV > 99.99% + SARS-CoV-2 > 99.99%
+  - 机制: 破坏病毒 RNA 完整性 (RT-qPCR 验证 RNA 水平显著下降)
+  - 注: 徐可团队 (徐可也为 zheng2022 和 zhong2024 通讯作者)
+  - domain: vaccine-design
+
+### images
+- 6张参考图 (AlGaN 外延/DUV LED 结构/病毒灭活/RNA 水平)
+- 2个 orphan 存档
+- MAPPING.md 已追加
+
+### index.md: vaccine-design 新增1条，总页数 59
 
 ## [2026-05-09] ingest | DeepVariant tool overview
 - Created: raw/articles/deepvariant-tool-overview.md
@@ -344,7 +344,7 @@
      - Google DeepSomatic Nat Biotechnol 2025，Illumina/PacBio/ONT 体细胞变异
 - Updated: raw/articles/deepvariant-tool-overview.md (added companion article cross-refs at bottom)
 - Updated: index.md (bioinfo-pipeline 新增5条，总页数 60 → 65)
-|
+
 ## [2026-05-09] ingest | 利用可变剪接开发肝癌通用型mRNA新抗原疫苗 (Cell Res 2025, 微信公众号·生信探索)
 
 ### raw/articles
@@ -939,7 +939,7 @@
 - Created: concepts/transformer.md — Transformer 概念页：自注意力/多头注意力/位置编码/Transformer+LSTM融合/生信应用
 - Updated: entities/cnvpipe.md — 交叉引用 [[svm]]
 - Updated: concepts/random-forest.md — 交叉引用 [[svm]]
-|- Updated: index.md — header(164→168), Concepts 新增 svm/transformer, Raw machine-learning 域追加2条
+- Updated: index.md — header(164→168), Concepts 新增 svm/transformer, Raw machine-learning 域追加2条
 
 ## [2026-05-21] ingest | 随机森林+贝叶斯优化（深夜努力写Python）
 - Raw: raw/articles/随机森林+贝叶斯优化-深夜努力写Python.md — 随机森林+贝叶斯优化超参数自动调优：RF+BO原理、EI采集函数、sklearn完整代码案例、过程可视化
@@ -1005,3 +1005,25 @@
 - Updated: entities/ovo.md — 相关概念添加 [[entities/ori-protein-design]] + raw 交叉引用
 - Updated: entities/seqdance-esmdance.md — 交叉引用添加 [[entities/ori-protein-design]]
 - Updated: index.md — Entities +1 (ori-protein-design), ai-drug-discovery raw +1, page count 185→187
+
+## [2026-05-26] ingest | 刘如谦组 Nat Biotechnol 2026：定向进化越改越脆，AI蛋白设计（ProteinMPNN）救场
+
+### raw/articles
+- raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场.md
+  - YAML frontmatter: source_url/ingested/sha256/citation/domain/tags
+  - sha256: cdaead85f66c0e723d27b610883cfdd2121ca53b35ec58932fcca09c5a4a07d5
+  - Citation: 刘如谦组 Nat Biotechnol 2026 突破：定向进化越改越脆，AI蛋白设计救场 — PE8 系列先导编辑器。BioTender 观测日志 (微信公众号), 2026.
+  - Domain: ai-drug-discovery
+  - Marketing CTA trimmed (biotender.online/scholar-program 推广链接+图片); WeChat footer images trimmed
+  - Content: PACE 进化 PE6 系列 RT 活性↑但表达↓1.5-2x（稳定性-功能权衡）→ ProteinMPNN 逆折叠重设计 + 冻结催化核心 → PE8 系列表达+2.0-2.3x, Tm+8°C, 95%功能存活率, 体内编辑 44% vs PE7 25%, 无脱靶
+
+### concepts
+- Created: concepts/ai-evolution-complementary-protein-engineering.md — 进化+AI互补蛋白工程范式概念页
+  - 核心问题：定向进化偏科（活性吸向核心，稳定性代价被无视）
+  - 解决方案：ProteinMPNN 修"地基"（冻结催化核心 + 表面重设计 30-163 AA）
+  - PE8 性能数据表（表达/Tm/功能率/体内编辑/脱靶）
+  - 互补分工对比表（进化管"心脏" vs AI 管"骨架"）
+  - 交叉引用: [[de-novo-protein-design]], [[ovo]], [[gem-gpcr-modulator]], [[nextgen-vaccine-strategies]], [[ori-protein-design]]
+
+### index.md: Concepts +1, ai-drug-discovery raw +1, page count 187→190
+### SCHEMA.md: 无需改动（ai-drug-discovery domain + tags 已存在）
