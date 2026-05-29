@@ -1027,3 +1027,21 @@
 
 ### index.md: Concepts +1, ai-drug-discovery raw +1, page count 187→190
 ### SCHEMA.md: 无需改动（ai-drug-discovery domain + tags 已存在）
+## 2026-05-29
+
+### raw/articles
+- raw/articles/ESM-World-Model-Biohub-Zuckerberg-智药局.md
+  - YAML frontmatter: source_url/ingested/sha256/citation/domain/tags
+  - sha256: 683cf2e8df4091986204039517075448b876fd74470d23d652139425f3a17cec
+  - Citation: 智药局微信公众号, 2026
+  - Domain: ai-drug-discovery
+  - Marketing: 标题"王炸"等营销措辞去掉; WeChat 图片全部移除; 内容重写为结构化摘要
+  - Content: Biohub（CZI/扎克伯格）开源全球首个蛋白质世界模型 = ESMC (300M/600M/6B pLM, 28亿序列) + ESMFold2 (折叠, 略胜AF3) + ESM Atlas (68亿蛋白/11亿结构图谱)。5癌症靶点命中率 36-88%, 抗体模式 15-29%。CZI $500M/5年生命预测计划
+
+### entities
+- Created: entities/esm-world-model.md — ESM World Model 实体页
+  - 组件架构表：ESMC / ESMFold2 / ESM Atlas
+  - 与 AlphaFold3/RFdiffusion 对比表
+  - 交叉引用: [[de-novo-protein-design]], [[alphafold3]], [[ori-protein-design]], [[seqdance-esmdance]]
+
+### index.md: Entities +1, ai-drug-discovery raw +1, page count 190→208

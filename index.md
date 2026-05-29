@@ -1,15 +1,16 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-05-26 | Total pages: 190 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 190 pages -->
+> Last updated: 2026-05-29 | Total pages: 208 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 208 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
 - [[cnvpipe]] — CNVPipe 基于机器学习的WGS拷贝数变异检测流程，Snakemake框架整合5工具+SVM+单细胞模块（bioRxiv 2025）
 - [[crocodeel]] — CroCoDeEL 无对照宏基因组交叉样本污染检测工具，RANSAC+RF四步法，0.1%最低检测限，Meteor2 最佳（Nat Commun 小包子学演化 2026）
 - [[deeprare]] — DeepRare AI智能体罕见病诊断系统，MCP三层架构+DeepSeek-V3，首次AI超越人类专家（Zhao W, Nature 2026）
-|- [[e-nose-respiratory-infection-zju-acs]] — 石墨烯电子鼻×机器学习区分细菌/病毒呼吸道感染，SVM/RF/Lasso加权融合模型，145例临床呼气样本验证（ACS Nano 2025 浙江大学邬建敏）
+||- [[e-nose-respiratory-infection-zju-acs]] — 石墨烯电子鼻×机器学习区分细菌/病毒呼吸道感染，SVM/RF/Lasso加权融合模型，145例临床呼气样本验证（ACS Nano 2025 浙江大学邬建敏）
+|- [[esm-world-model]] — ESM World Model：Biohub（CZI/扎克伯格）开源全球首个蛋白质世界模型，ESMC+ESMFold2+ESM Atlas 三组件，68亿蛋白图谱，癌症靶点命中率36-88%
 |- [[fastsc]] — R 包 fastSC v1.0.2，一站式单细胞分析+可视化+CellChat/Monocle/inferCNV 接口
 - [[gbt46943-2025-mngs-standard]] — GB/T 46943-2025 mNGS性能确认国家标准，涵盖LoD/精密度/准确度/生信流程
 - [[kingcreate-kcq]] — 金圻睿KCQ mNGS绝对定量系统，15条合成内参，与ddPCR R=0.97
@@ -125,9 +126,10 @@
 |- [[raw/articles/SeqDance-ESMDance-蛋白质动力学语言模型-PNAS2026-biomath]] — SeqDance/ESMDance pLM 基于 MD 动力学预训练预测突变效应，Transformer 编码残基共运动/全局构象，ESMDance 零样本预测设计蛋白 Spearman r 0.46 vs ESM2 0.21（PNAS 2026 Hou C, biomath微信公众号）
 |- [[raw/articles/DrugCLIP-MCLM-对比学习-AIDD-arXiv2026]] — CLIPP-SET/MCLM 对比 3D 蛋白-配体学习 + 条件分子生成，SET SE(3)等变transformer/CF-InfoNCE/dataset token，scaffold hopping检索优于Morgan FP（arXiv 2026 Acellera/UPF，陷入鞍点）
 |- [[raw/papers/hou2026-seqdance-esmdance-pnas]] — SeqDance/ESMDance 基于 MD 动力学预训练的 pLM 原始论文：Transformer 编码残基共运动/全局构象，零样本预测设计蛋白/病毒蛋白突变效应（Hou C, PNAS 2026）
-|- [[raw/articles/ORI-腾讯AI4S蛋白设计闭环-NatureComm2026]] — ORI 腾讯 AI4S 本体强化迭代蛋白设计闭环，PDA + PGM + USM + RLWF，溶菌酶/几丁质酶/双功能酶实验验证，TX-RL15 活性超天然溶菌酶两个数量级（He B, Nat Commun 2026，微信公众号·AI药物设计实验室）
-|- [[raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场]] — 刘如谦组 Nat Biotechnol 2026：定向进化越改越脆、AI蛋白设计（ProteinMPNN）救场，PE8系列 2.0-2.3x 表达 +8°C Tm，体内编辑44% vs PE7 25%，"进化打底、AI加固"互补范式（BioTender观测日志）
-
+||- [[raw/articles/ORI-腾讯AI4S蛋白设计闭环-NatureComm2026]] — ORI 腾讯 AI4S 本体强化迭代蛋白设计闭环，PDA + PGM + USM + RLWF，溶菌酶/几丁质酶/双功能酶实验验证，TX-RL15 活性超天然溶菌酶两个数量级（He B, Nat Commun 2026，微信公众号·AI药物设计实验室）
+||- [[raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场]] — 刘如谦组 Nat Biotechnol 2026：定向进化越改越脆、AI蛋白设计（ProteinMPNN）救场，PE8系列 2.0-2.3x 表达 +8°C Tm，体内编辑44% vs PE7 25%，"进化打底、AI加固"互补范式（BioTender观测日志）
+||- [[raw/articles/ESM-World-Model-Biohub-Zuckerberg-智药局]] — Biohub（CZI/扎克伯格）开源全球首个蛋白质世界模型，ESMC+ESMFold2+ESM Atlas三组件，68亿蛋白图谱，5靶点36-88%命中率，开源免费（智药局微信公众号，2026）
+||
 ### bioinfo-pipeline
 - [[raw/articles/scMethCraft-单细胞DNA甲基化统一分析框架-NatCommun2026]] — scMethCraft 单细胞 DNA 甲基化统一分析框架，混合神经网络+KAN 序列特征融合+迭代相似性加权，NA 原生处理，降维/聚类/批次整合/增强/DMR 全流程（Nat Commun 2026，微信公众号·生信钱同学）
 - [[raw/articles/5分生信文章工作量标杆-IPF多组学机器学习]] — IPF多组学+机器学习，14张图发5分的工作量拆解（微信公众号·纯肥瘦肉夹馍）
