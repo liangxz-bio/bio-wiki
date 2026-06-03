@@ -1075,3 +1075,10 @@
 
 ### index.md: Concepts +1, page count 210→211
 ### index.md: machine-learning raw +1 (超全面讲透UMAP算法模型), page count 211→212
+
+## [2026-06-03] index | 绘制Cell杂志同款umap图_python版
+
+### raw/articles
+- Indexed: raw/articles/绘制Cell杂志同款umap图_python版.md — 生信技能树 Python 复现 Cell 杂志 UMAP 图教程，scanpy+UMAP 亚细胞区室可视化
+
+### index.md: bioinfo-pipeline raw +1, page count 212→213

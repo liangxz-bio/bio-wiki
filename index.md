@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-06-03 | Total pages: 212 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 212 pages -->
+> Last updated: 2026-06-03 | Total pages: 213 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 213 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -134,6 +134,7 @@
 ||
 ### bioinfo-pipeline
 - [[raw/papers/yang2026-featuremap-natcompsci]] — FeatureMAP 特征保持流形逼近与投影，基于局部 PCA 切空间嵌入保留基因信息，GEX/GVA 双嵌入策略（Yang Y, Nat Comput Sci 2026）
+- [[raw/articles/绘制Cell杂志同款umap图_python版]] — 生信技能树 Python 复现 Cell 杂志 UMAP 图教程：scanpy 读数据→PCA→UMAP→亚细胞区室着色（生信技能树微信公众号，2026）
 - [[raw/articles/scMethCraft-单细胞DNA甲基化统一分析框架-NatCommun2026]] — scMethCraft 单细胞 DNA 甲基化统一分析框架，混合神经网络+KAN 序列特征融合+迭代相似性加权，NA 原生处理，降维/聚类/批次整合/增强/DMR 全流程（Nat Commun 2026，微信公众号·生信钱同学）
 - [[raw/articles/5分生信文章工作量标杆-IPF多组学机器学习]] — IPF多组学+机器学习，14张图发5分的工作量拆解（微信公众号·纯肥瘦肉夹馍）
 - [[raw/articles/R语言SCI论文7种图可视化DeepSeekV4]] — R语言SCI论文7种图：ROC/校准/DCA/列线图/OncoPrint/桑基/SHAP，代码即用（RAI王博士）
