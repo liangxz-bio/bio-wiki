@@ -7,6 +7,7 @@ tags: [bioinformatics, dimensionality-reduction, manifold-learning, visualizatio
 domain: bioinfo-pipeline
 sources:
   - raw/papers/mcinnes2018-umap-joss
+  - raw/articles/超全面讲透UMAP算法模型
 confidence: high
 ---
 
