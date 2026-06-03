@@ -1063,3 +1063,14 @@
   - Domain: bioinfo-pipeline
 
 ### index.md: Concepts +1, bioinfo-pipeline raw +1, page count 208→210
+
+## [2026-06-03] create | UMAP concept page
+
+### concepts
+- Created: concepts/umap.md — UMAP 一致流形逼近与投影
+  - 算法流程：kNN图 → 模糊单纯集 → 交叉熵优化 → 低维嵌入
+  - 超参数详解：n_neighbors / min_dist / n_components
+  - 对比表：UMAP vs t-SNE vs FeatureMAP
+  - 交叉引用: [[featuremap]], [[scrnaseq-workflow]], [[random-forest]], [[svm]]
+
+### index.md: Concepts +1, page count 210→211

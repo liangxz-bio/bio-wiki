@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-06-03 | Total pages: 210 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 210 pages -->
+> Last updated: 2026-06-03 | Total pages: 211 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 211 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -79,8 +79,9 @@
 - [[random-forest]] — Random Forest（随机森林）集成学习算法：Bagging + 随机特征选择，分类/回归/特征重要性，生物信息学应用（特征筛选/微生物分类/污染检测/癌症早筛）
 - [[svm]] — SVM 支持向量机：最大间隔超平面、核技巧（线性/RBF/多项式）、与 RF 对比，生信应用（CNV 过滤/微阵列分类/蛋白质定位）
 - [[transformer]] — Transformer 自注意力机制：多头注意力、位置编码、Transformer+LSTM 时序融合架构，生信应用（蛋白质语言模型 ESM/基因表达时序/DNA 序列建模）
+- [[umap]] — UMAP 一致流形逼近与投影，非线性降维可视化，kNN 图 + 交叉熵优化，scRNA-seq 标准降维工具（McInnes L, JOSS 2018）
+- [[universal-intranasal-vaccine-gla-3m052]] — GLA-3M-052-LS+OVA 鼻喷广谱疫苗，整合器官免疫范式，TLR4+TLR7/8双激动剂+肺泡巨噬细胞表观遗传重塑，病毒/细菌/过敏原全覆盖（Zhang H, Science 2026）
 ## Comparisons
-- [[tngs-vs-mngs]] — mp-tNGS / hc-tNGS / mNGS 三方法全面对比（性能+成本+适用场景）
 
 ## Code Index
 - [[codebase-index]] — 统一代码组织入口，Python/Perl/R/Rust 工具 + Nextflow Pipeline + 第三方工具索引，symlink 聚合
