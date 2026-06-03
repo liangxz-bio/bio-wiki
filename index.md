@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-05-29 | Total pages: 208 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 208 pages -->
+> Last updated: 2026-06-03 | Total pages: 210 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 210 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -73,6 +73,7 @@
 - [[wgd-immune-evasion]] — WGD 驱动免疫逃逸的代谢-表观遗传机制：琥珀酸↑→KDM6↓→H3K27me3↑→MHC-I 沉默
 - [[universal-intranasal-vaccine-gla-3m052]] — GLA-3M-052-LS+OVA 鼻喷广谱疫苗，整合器官免疫范式，TLR4+TLR7/8双激动剂+肺泡巨噬细胞表观遗传重塑，病毒/细菌/过敏原全覆盖（Zhang H, Science 2026）
 - [[cfdna-fragmentomics-mced]] — cfDNA 片段组学多癌早检（MCED），13癌种I期79.3%/特异性98.9%，四大信号维度对比，金陵队列（Shao Y, Nat Med 2026）
+- [[featuremap]] — FeatureMAP 特征保持流形逼近与投影，局部切空间嵌入保留基因变异信息，GEX/GVA 双嵌入 + 核心/转换态 + DGV 分析（Yang Y, Nat Comput Sci 2026）
 - [[five-cancer-screening-guide]] — 五大癌种筛查指南（乳腺/结直肠/宫颈/前列腺/肺癌），AI辅助，MCED补充（Duffy SW, Nat Rev Clin Oncol 2026）
 - [[ai4s-business-framework]] — AI4S赛道框架：感知行合四种生意，License-out/SaaS/IDM三种变现，DBTL飞轮，商业化甜蜜点迁移（钛资本研究院）
 - [[random-forest]] — Random Forest（随机森林）集成学习算法：Bagging + 随机特征选择，分类/回归/特征重要性，生物信息学应用（特征筛选/微生物分类/污染检测/癌症早筛）
@@ -131,6 +132,7 @@
 ||- [[raw/articles/ESM-World-Model-Biohub-Zuckerberg-智药局]] — Biohub（CZI/扎克伯格）开源全球首个蛋白质世界模型，ESMC+ESMFold2+ESM Atlas三组件，68亿蛋白图谱，5靶点36-88%命中率，开源免费（智药局微信公众号，2026）
 ||
 ### bioinfo-pipeline
+- [[raw/papers/yang2026-featuremap-natcompsci]] — FeatureMAP 特征保持流形逼近与投影，基于局部 PCA 切空间嵌入保留基因信息，GEX/GVA 双嵌入策略（Yang Y, Nat Comput Sci 2026）
 - [[raw/articles/scMethCraft-单细胞DNA甲基化统一分析框架-NatCommun2026]] — scMethCraft 单细胞 DNA 甲基化统一分析框架，混合神经网络+KAN 序列特征融合+迭代相似性加权，NA 原生处理，降维/聚类/批次整合/增强/DMR 全流程（Nat Commun 2026，微信公众号·生信钱同学）
 - [[raw/articles/5分生信文章工作量标杆-IPF多组学机器学习]] — IPF多组学+机器学习，14张图发5分的工作量拆解（微信公众号·纯肥瘦肉夹馍）
 - [[raw/articles/R语言SCI论文7种图可视化DeepSeekV4]] — R语言SCI论文7种图：ROC/校准/DCA/列线图/OncoPrint/桑基/SHAP，代码即用（RAI王博士）

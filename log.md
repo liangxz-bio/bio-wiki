@@ -1045,3 +1045,21 @@
   - 交叉引用: [[de-novo-protein-design]], [[alphafold3]], [[ori-protein-design]], [[seqdance-esmdance]]
 
 ### index.md: Entities +1, ai-drug-discovery raw +1, page count 190→208
+
+## [2026-06-03] ingest | FeatureMAP — feature-preserving manifold approximation (Nat Comput Sci 2026)
+
+### concepts
+- Created: concepts/featuremap.md — FeatureMAP 特征保持流形逼近与投影
+  - 局部切空间嵌入（local PCA + SVD）保留基因变异信息
+  - GEX/GVA 双嵌入策略（密度保持 vs 轨迹保持）
+  - 三大核心概念：gene contribution / gene variation trajectory / core vs transition states
+  - DGV 分析鉴定调控基因
+  - 交叉引用: [[scrnaseq-workflow]], [[fastsc]], [[random-forest]], [[kraken2-classification]]
+
+### raw/papers
+- Created: raw/papers/yang2026-featuremap-natcompsci.md — FeatureMAP 原始论文 (MinerU full text)
+  - sha256: 1fcb764615b3ddc87299dfea54edbdd64de85aa9ecf4f90309a76c51a432629d
+  - DOI: 10.1038/s43588-026-00970-6
+  - Domain: bioinfo-pipeline
+
+### index.md: Concepts +1, bioinfo-pipeline raw +1, page count 208→210
