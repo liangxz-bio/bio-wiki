@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-06-03 | Total pages: 213 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 213 pages -->
+> Last updated: 2026-06-05 | Total pages: 198 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 198 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -197,6 +197,7 @@
 |- [[raw/articles/万能呼吸道疫苗-斯坦福Science-鼻喷广谱防护]] — GLA-3M-052-LS+OVA 鼻喷通用疫苗，整合器官免疫范式，3剂防护3个月，病毒/细菌/过敏原全覆盖（Zhang H, Science 2026，生物谷微信公众号）
 |- [[raw/articles/科医诺生物-携手步长制药-共拓广谱流感疫苗]] — 科医诺生物 KNY0003 广谱流感疫苗管线：徐可团队原研，步长制药合作产业化，$98.5B流感疫苗市场，抗原理性再设计（科医诺生物微信公众号）
 |- [[raw/articles/TCR-PRP-多肽识别谱-语言模型-T细胞功能预测-NatBiotechnol2026]] — TCR-PRP 多肽识别谱与 T 细胞功能预测：pLM 超越 AF3，发现 HLA-B*27:05 自身免疫新抗原（微信公众号·游离的DNA，Nat Biotechnol 2026）
+|- [[raw/articles/突破传统疫苗思路_Science广谱呼吸道免疫]] — GLA-3M-052-LS+OVA 鼻喷通用疫苗机制详解：RANKL-巨噬细胞表观遗传重塑、三级淋巴结构、控制性清除策略（iNature，Zhang H, Science 2026）
 
 ### cancer-biology
 |- [[raw/articles/南京医科大学-NatureMedicine-多癌早检-cfDNA片段组学]] — 南京医科大学 Nat Med MCED：cfDNA 片段组学13癌种早检，I期79.3%/特异性98.9%，TOO 82.3%，金陵队列3,724人，0-II期占93%（微信公众号·BioMed科技，Shao Y, Nat Med 2026）
