@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-06-05 | Total pages: 198 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 198 pages -->
+> Last updated: 2026-06-08 | Total pages: 199 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 199 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -220,5 +220,6 @@
 |- [[raw/articles/跟着小白学机器学习-朴素贝叶斯]] — 朴素贝叶斯算法详解：贝叶斯定理/条件独立性假设/多项式NB/高斯NB/零概率平滑/文本分类sklearn代码案例（微信公众号·跟着小白一起机器学习，2023）
 |- [[raw/articles/跟着小白学机器学习-线性回归]] — 线性回归算法详解：OLS最小二乘法/R平方/岭回归&Lasso/多重共线性/sklearn代码案例（微信公众号·跟着小白一起机器学习，2023）
 |- [[raw/articles/跟着小白学机器学习-K均值聚类]] — K均值聚类算法详解：目标函数/算法步骤/肘部法/轮廓系数/Gap统计量/K值选择/sklearn代码案例（微信公众号·跟着小白一起机器学习，2023）
-||- [[raw/articles/跟着小白学机器学习-支持向量机]] — 支持向量机算法详解：软硬间隔/核函数/超参数GridSearchCV/OvO&OvR多分类/SVR回归/sklearn完整代码与决策边界可视化（微信公众号·跟着小白一起机器学习，2023）
-||- [[raw/articles/超全面讲透UMAP算法模型]] — UMAP 算法全面讲解：流形假设/kNN图/模糊单纯集/交叉熵优化/SGD/超参数选择/与t-SNE对比（微信公众号）
+|||- [[raw/articles/跟着小白学机器学习-支持向量机]] — 支持向量机算法详解：软硬间隔/核函数/超参数GridSearchCV/OvO&OvR多分类/SVR回归/sklearn完整代码与决策边界可视化（微信公众号·跟着小白一起机器学习，2023）
+|||- [[raw/articles/超全面讲透UMAP算法模型]] — UMAP 算法全面讲解：流形假设/kNN图/模糊单纯集/交叉熵优化/SGD/超参数选择/与t-SNE对比（微信公众号）
+||- [[raw/articles/langgraph-engineering-handbook]] — LangGraph 工程落地手册：Multi-Agent Supervisor 模式/Long-term Memory 长期记忆/生产踩坑实录/25个代码块，21,516字（腾讯云开发者社区·技术方舟，2026-04-05）

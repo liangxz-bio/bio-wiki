@@ -1089,3 +1089,11 @@
 - Index: index.md — raw entry under vaccine-design +1, header updated
 - Page count: 213 → 214
 - Fix: index.md page count corrected from 214→198 (pre-existing discrepancy: only 198 .md files on disk)
+
+## [2026-06-08] ingest | LangGraph 工程落地手册
+### raw/articles
+- Ingested: raw/articles/langgraph-engineering-handbook.md — LangGraph 工程落地手册：Multi-Agent Supervisor 模式/Long-term Memory 长期记忆/生产踩坑实录/25个代码块/21,516字（腾讯云开发者社区·技术方舟，2026-04-05）
+- Frontmatter: source_url/ingested/sha256/citation/domain: maching-learning/tags added
+- Domain: machine-learning — LangGraph AI Agent 编排框架工程手册（LangGraph 原生底座参考）
+### index.md
+- Raw source entry added under machine-learning +1, page count: 198 → 199
