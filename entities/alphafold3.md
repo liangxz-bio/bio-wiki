@@ -44,6 +44,7 @@ AF3 与 IsoDDE 的关系：两者都声称超越对方——AF3 用论文 benchm
 - **构象偏差**：倾向于预测"结合态"，难以还原开放态
 - **无序区假秩序**：尽管置信度低，仍可能产生虚假结构
 - **未开源**：仅限服务器非商业使用，限制本地部署和二次开发
+- **发现新 PPI 能力弱**：AF/RF 高置信预测中严格新 PPI 远少于实验方法（酵母 30 vs YeRI 1,382），偏向大界面/稳定复合物/已知蛋白，domain-motif 互作恢复率差 ^[raw/articles/Nature Communications 2026｜AlphaFold 能算出完整互作组吗？这篇实验评估给出答案.md]
 
 ## 交叉引用
 
@@ -55,3 +56,4 @@ AF3 与 IsoDDE 的关系：两者都声称超越对方——AF3 用论文 benchm
 - [[entities/tcr-prp]] — TCR-PRP pLM 在 T 细胞激活预测中全面超越 AF3（Nat Biotechnol 2026），说明结构预测在功能预测场景的局限
 - [[entities/highfold]] — HighFold 系列环肽结构预测工具（CycPOEM + ncAA + Cyclization 开关），构建于 AF2/AF3 之上
 - [[entities/pplm]] — PPLM 蛋白配对语言模型，PPLM-Contact2 融合 AF2.3/AF3/DMFold 链间距离图提升接触精度
+- [[concepts/ai-interactome-mapping-limitations]] — AI 互作组预测边界：AF 适合为实验发现的 PPI 补结构，不适合发现新 PPI

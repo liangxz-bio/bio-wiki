@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-06-08 | Total pages: 199 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 199 pages -->
+> Last updated: 2026-06-12 | Total pages: 202 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 201 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -21,9 +21,10 @@
 - [[mmseqs2]] — MMseqs2-GPU GPU加速同源搜索算法，比JackHMMER快177x，ColabFold加速31.8x，Foldseek加速4-27x（Nat Methods 2025, Mirdita M）
 - [[ovo]] — Ovo 开源从头蛋白设计生态系统：Nextflow 工作流编排 + ProteinQC 质量评估 + Web GUI/CLI，scaffold/binder/diversification 三范式（MSD + AWS, bioRxiv 2025）
 - [[ori-protein-design]] — ORI 腾讯AI4S 本体强化迭代蛋白设计闭环（PDA + PGM + USM + RLWF），溶菌酶/热稳定几丁质酶/双功能酶实验验证，TX-RL15 活性超天然溶菌酶两个数量级（He B, Nat Commun 2026）
-||- [[protenix-v2]] — Protenix-v2 ByteDance Seed：统一结构预测+zero-shot 抗体设计，GPCR 靶点 16-88% VHH hit rate，5 seeds 超越 v1 1000 seeds
-||- [[pplm]] — PPLM 蛋白配对语言模型，hybrid intra-/inter-protein attention 双链建模，PPI 二分类/亲和力/链间接触三项任务优于基线（Liu J, Nat Commun 2026）
-|- [[diamond-deepclust]] — DIAMOND DeepClust 级联超快速蛋白质聚类，190亿序列→17亿簇，3.35亿≥3簇=BFD 5.5x，AF2 pLDDT↑7.73（Nat Methods 2026）
+|||- [[protenix-v2]] — Protenix-v2 ByteDance Seed：统一结构预测+zero-shot 抗体设计，GPCR 靶点 16-88% VHH hit rate，5 seeds 超越 v1 1000 seeds
+|||- [[pplm]] — PPLM 蛋白配对语言模型，hybrid intra-/inter-protein attention 双链建模，PPI 二分类/亲和力/链间接触三项任务优于基线（Liu J, Nat Commun 2026）
+|||- [[promera]] — Promera 蛋白 Binder 折叠·筛选·设计统一模型，ipSAE 筛选 AUROC 0.70 碾压 AF-Multimer/Boltz-2，4靶点设计超 BoltzGen、追平 mBER（Jing B, bioRxiv 2026）
+||- [[diamond-deepclust]] — DIAMOND DeepClust 级联超快速蛋白质聚类
 ||- [[drugclip-mclm-contrastive-aidd]] — CLIPP-SET/MCLM 对比 3D 蛋白-配体学习与条件分子生成，SET SE(3)等变 transformer + CF-InfoNCE 对比 + Llama2 SMILES decoder，dataset token 控制化学空间，scaffold hopping 验证（arXiv 2026 Acellera/UPF）
 ||- [[gps-ai-drug-platform]] — GPS AI药物设计平台：化学结构→转录组效应预测，Z-RGES评分逆转疾病表型筛选，肝癌/MSU45302/肺纤维化（Cell 2026）
 |- [[alphafold3]] — AlphaFold 3 全生物分子统一结构预测框架，扩散模型+Pairformer，蛋白/核酸/配体/离子，PoseBusters 76.4%（DeepMind, Nature 2024）
@@ -58,6 +59,7 @@
 |- [[ws-hla-genotyping-standard]] — HLA 基因分型检测体系技术标准，SSP/SSO/SBT 三种方法、QC体系、环境与人员要求
 ## Concepts
 - [[ai-evolution-complementary-protein-engineering]] — 进化+AI互补蛋白工程范式：定向进化管活性、AI逆折叠管稳定性，PE8系列先导编辑器50%体内效率证实，ProteinMPNN修"地基"不碰催化核心（David Liu, Nat Biotechnol 2026）
+- [[ai-interactome-mapping-limitations]] — AI 互作组预测边界：AF/RF 高置信但新 PPI 发现远落后于实验（酵母 30 vs YeRI 1,382），CCC 指标，实验+AI 互补工作流（Lambourne L, Nat Commun 2026）
 - [[as-neoantigen-hcc-vaccine]] — AS来源新抗原的肝癌通用型mRNA疫苗，AS事件丰度为突变59倍，覆盖50.94% HCC患者，TAPi抗原绕过62%患者TAP缺陷（Zhao H, Cell Res 2025）
 - [[bayesian-optimization]] — Bayesian Optimization 贝叶斯优化：GP/RF代理模型、EI/PI/UCB采集函数、RF+BO超参数调优、与Grid/Random Search对比
 - [[scrnaseq-workflow]] — scRNA-seq 标准化分析流程：湿实验建库、生信分析、降维聚类、细胞注释、差异分析、临床转化
@@ -131,6 +133,8 @@
 ||- [[raw/articles/ORI-腾讯AI4S蛋白设计闭环-NatureComm2026]] — ORI 腾讯 AI4S 本体强化迭代蛋白设计闭环，PDA + PGM + USM + RLWF，溶菌酶/几丁质酶/双功能酶实验验证，TX-RL15 活性超天然溶菌酶两个数量级（He B, Nat Commun 2026，微信公众号·AI药物设计实验室）
 ||- [[raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场]] — 刘如谦组 Nat Biotechnol 2026：定向进化越改越脆、AI蛋白设计（ProteinMPNN）救场，PE8系列 2.0-2.3x 表达 +8°C Tm，体内编辑44% vs PE7 25%，"进化打底、AI加固"互补范式（BioTender观测日志）
 ||- [[raw/articles/ESM-World-Model-Biohub-Zuckerberg-智药局]] — Biohub（CZI/扎克伯格）开源全球首个蛋白质世界模型，ESMC+ESMFold2+ESM Atlas三组件，68亿蛋白图谱，5靶点36-88%命中率，开源免费（智药局微信公众号，2026）
+||- [[raw/articles/Nature Communications 2026｜AlphaFold 能算出完整互作组吗？这篇实验评估给出答案]] — AI 互作组映射系统实验评估：AF/RF 高置信但新 PPI 发现远落后于实验方法，CCC 指标，实验+AI 互补工作流（Lambourne L, Nat Commun 2026）
+||- [[raw/articles/MIT全能蛋白 Binder 模型——Promera！接管设计、折叠、筛选全流程！！]] — Promera 蛋白 Binder 折叠·筛选·设计统一模型，ipSAE 筛选 AUROC 0.70，4靶点设计超 BoltzGen、追平 mBER，bioRxiv 2026（BioTender观测日志）
 ||
 ### bioinfo-pipeline
 - [[raw/papers/yang2026-featuremap-natcompsci]] — FeatureMAP 特征保持流形逼近与投影，基于局部 PCA 切空间嵌入保留基因信息，GEX/GVA 双嵌入策略（Yang Y, Nat Comput Sci 2026）
@@ -210,8 +214,9 @@
 |- [[raw/articles/奥明星程-AI4S-超亿元A轮-多组学多模态]] — 奥明星程超亿元A轮，哈佛博士团队，AI+多组学多模态，乳腺癌早筛 OS-TuFEst-BRCA 灵敏度92-95%（动脉网微信公众号，2026）
 |- [[raw/articles/复鞍智能-AI4S物质科学-复旦科创种子轮]] — 复鞍智能种子轮，复旦刘智攀团队，AI4S催化材料分子反应研发（建研院微信公众号，2026）
 ### machine-learning
-|||- [[raw/articles/Graphene-E-Nose-Respiratory-Infection-ZJU-ACS]] — 石墨烯电子鼻×机器学习区分细菌/病毒呼吸道感染，SVM/RF/Lasso加权融合模型，145例临床呼气样本+43例外部测试，AUC 0.87（ACS Nano 2025 浙江大学邬建敏，微信公众号·有机配体和荧光染料最新研究）
-|||- [[raw/articles/随机森林+贝叶斯优化-深夜努力写Python]] — RF+BO 超参数自动调优：代理模型替换、EI采集函数、sklearn 完整代码案例与可视化（微信公众号·深夜努力写Python，cos大壮）
+||||- [[raw/articles/Graphene-E-Nose-Respiratory-Infection-ZJU-ACS]] — 石墨烯电子鼻×机器学习区分细菌/病毒呼吸道感染，SVM/RF/Lasso加权融合模型，145例临床呼气样本+43例外部测试，AUC 0.87（ACS Nano 2025 浙江大学邬建敏，微信公众号·有机配体和荧光染料最新研究）
+||||- [[raw/articles/AdvSci-徐可课题组-AI电子鼻闻出病毒]] — IOMS 智能气味监测系统实时非侵入检测呼吸道病毒感染，传感器阵列+机器学习 KNN/SVM/LDA，7天360万数据点，内部准确率 99.88%（Advanced Science 2026 武汉大学徐可/华中科技大学刘欢，科医诺生物公众号）
+||||- [[raw/articles/随机森林+贝叶斯优化-深夜努力写Python]]
 ||- [[raw/articles/随机森林算法全面讲解-机器学习和人工智能AI]] — Random Forest 全面教程：Bagging + 随机特征选择、Gini/MSE分裂准则、复杂度分析、sklearn 代码案例、GridSearchCV 超参数调优（微信公众号·机器学习和人工智能AI）
 |- [[raw/articles/SVM支持向量机算法详解-机器学习和人工智能AI]] — SVM 全面讲解：最大间隔超平面、核技巧（linear/RBF/poly）、软间隔 C 参数、sklearn iris 分类代码案例（微信公众号·机器学习和人工智能AI）
 |- [[raw/articles/Transformer结合LSTM时序预测详解-机器学习和人工智能AI]] — Transformer+LSTM 时序融合：自注意力+多头注意力+位置编码、LSTM 门控机制、并行/级联融合策略、完整 PyTorch 代码与可视化（微信公众号·机器学习和人工智能AI）

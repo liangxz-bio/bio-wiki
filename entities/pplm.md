@@ -47,6 +47,7 @@ PPLM 把蛋白语言模型的基本单元从"单条蛋白链"推进到"蛋白对
 - [[entities/protenix-v2]] — Protenix-v2 聚焦结构预测+抗体设计，PPLM 提供基于序列的 PPI 表示
 - [[entities/boltz2]] — Boltz-2 共折叠虚拟筛选与 PPLM-PPI 均涉及蛋白复合物建模
 - [[entities/tcr-prp]] — TCR-PRP 使用 pLM 预测 T 细胞激活，与 PPLM 共享蛋白语言模型基础
+- [[concepts/ai-interactome-mapping-limitations]] — AI 互作组预测边界评估：PPLM 属于"AI 找边"路径，与实验方法的发现效率对比见该概念页
 
 ## 局限与未公开
 

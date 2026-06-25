@@ -327,19 +327,19 @@
 
 ## [2026-05-09] batch-ingest | DeepVariant 配套文章 × 5
 - Added frontmatter + sha256 + cross-refs to 5 existing raw/articles:
-  1. raw/articles/群体遗传学分析-4.2-SNP-calling-DeepVariant
+  1. raw/articles/群体遗传学分析-4.2-SNP-calling-DeepVariant.md
      - sha256: 8991480c35d13c9e3a4ea8293cd512dea833a1c413b812f1482128a5e06e8b76
      - 微信公众号·小伍的科研笔记，DeepVariant Docker 安装与 WGS/HiFi 实战
-  2. raw/articles/DeepVariant又快又准-替代GATK的变异检测工具
+  2. raw/articles/DeepVariant又快又准-替代GATK的变异检测工具.md
      - sha256: e438440006c570b113f1c895e679e2335420592072f5f2fd725b97acd863bbba
      - 微信公众号·生信开发者，DeepVariant vs GATK 性能案例
-  3. raw/articles/DeepVariant-SnakeMake流程-Workflow简介
+  3. raw/articles/DeepVariant-SnakeMake流程-Workflow简介.md
      - sha256: cd57021f881a520a142ceab0a2300ed0c8490db6be239f90ff8d08e1f079efd6
      - 微信公众号·生信探索，SnakeMake + DeepVariant 流程编排
-  4. raw/articles/minimap2-DeepVariant-HiFi检测SNP-INDEL
+  4. raw/articles/minimap2-DeepVariant-HiFi检测SNP-INDEL.md
      - sha256: d421512cabf25d7873d8d2833602fc073323ec8cc097c637c164ce4eaf3e9fe8
      - 微信公众号·允思拓，PacBio HiFi + DeepVariant
-  5. raw/articles/DeepSomatic-多测序技术体细胞变异检测-NatBiotechnol2025
+  5. raw/articles/DeepSomatic-多测序技术体细胞变异检测-NatBiotechnol2025.md
      - sha256: 4c25bdb47eea7accb7bcbbca06419a3ab7836c9a97af00023f34d79b1df6ccbe
      - Google DeepSomatic Nat Biotechnol 2025，Illumina/PacBio/ONT 体细胞变异
 - Updated: raw/articles/deepvariant-tool-overview.md (added companion article cross-refs at bottom)
@@ -357,7 +357,7 @@
 ### concepts
 - Created: concepts/as-neoantigen-hcc-vaccine.md — AS来源新抗原的肝癌通用型mRNA疫苗概念页
   - compact format: 核心发现链(AS→筛选→TAPi→mRNA-LNP→体内疗效) + 关键证据摘要(7条) + 与突变来源个性化新抗原对比表
-  - cross-ref: [[nextgen-vaccine-strategies]], [[raw/articles/mRNA肿瘤个性化疫苗-从计算设计到临床转化]]
+  - cross-ref: [[nextgen-vaccine-strategies]], [[raw/articles/mRNA肿瘤个性化疫苗-从计算设计到临床转化.md]]
 
 ### index.md: 新增2条(raw + concept)，总页数 65→67
 
@@ -700,7 +700,7 @@
 ### Dangling links fixed (4)
 - `entities/codebase-index.md`: `[[bioinfo-pipeline]]` → plain text (指向 domain，非页面)
 - `concepts/scrnaseq-workflow.md`: `[[cellphonedb-cell-communication]]` → CellPhoneDB (planned page 未创建)
-- `entities/deeprare.md`: `[[deepvariant-tool-overview]]` → `[[raw/articles/deepvariant-tool-overview]]` (raw 路径修正)
+- `entities/deeprare.md`: `[[deepvariant-tool-overview]]` → `[[raw/articles/deepvariant-tool-overview.md]]` (raw 路径修正)
 - `concepts/nextgen-vaccine-strategies.md`: `[[virus-vaccine-pipeline]]` → plain text (planned page 未创建)
 
 ### Index & counts
@@ -713,7 +713,7 @@
 ## [2026-05-15] ingest | MsgaBpred B细胞表位预测 AlphaFold3-GCN-ESM-C
 - Raw: raw/articles/MsgaBpred-B细胞表位预测-AlphaFold3-GCN-ESM-C.md — 整合AlphaFold3预测结构、多尺度GCN与ESM-C的B细胞表位预测模型，AUC统计显著提升（微信公众号·习也无止境）
 - Frontmatter: source_url/ingested/sha256/citation/domain/tags
-- Cross-refs: [[concepts/nextgen-vaccine-strategies]], [[entities/de-novo-protein-design]], [[raw/articles/RFdiffusion-蛋白质从头设计-Nature论文详解]]
+- Cross-refs: [[concepts/nextgen-vaccine-strategies]], [[entities/de-novo-protein-design]], [[raw/articles/RFdiffusion-蛋白质从头设计-Nature论文详解.md]]
 - Updated: index.md — 新增 raw/articles 条目到 vaccine-design 域
 
 ## [2026-05-15] ingest | GLA-3M-052-LS+OVA 鼻喷广谱疫苗（Science 2026，生物谷微信公众号）
@@ -748,7 +748,7 @@
 ## [2026-05-16] ingest | 计算驱动靶向肽药物设计：从物理建模到生成式AI与临床转化
 - Raw: raw/articles/计算驱动靶向肽药物设计-物理建模到生成式AI-InnovDrugDiscov2026.md — 靶向肽药物设计综述，生成→逆折叠→预测→ADMET→物理验证闭环框架，PepMLM/EvoDiff/HighFold/PepFlow/LigandMPNN工具全景，Research Gaps（ncAA/环肽/多目标PK等）（微信公众号·陷入鞍点，Hu W, Innov Drug Discov 2026）
 - Frontmatter: source_url/ingested/sha256/citation 已添加
-- Updated: entities/de-novo-protein-design.md — 交叉引用 [[raw/articles/计算驱动靶向肽药物设计-物理建模到生成式AI-InnovDrugDiscov2026]]
+- Updated: entities/de-novo-protein-design.md — 交叉引用 [[raw/articles/计算驱动靶向肽药物设计-物理建模到生成式AI-InnovDrugDiscov2026.md]]
 - Updated: index.md — raw/articles 条目到 ai-drug-discovery 域，page count: 121 → 122
 
 ## [2026-05-16] ingest | AlphaFold 3 深度解读：扩散模型与全生物分子时代
@@ -1097,3 +1097,40 @@
 - Domain: machine-learning — LangGraph AI Agent 编排框架工程手册（LangGraph 原生底座参考）
 ### index.md
 - Raw source entry added under machine-learning +1, page count: 198 → 199
+
+## [2026-06-10] ingest | AI 互作组预测实验评估（Lambourne L, Nat Commun 2026）
+### raw/articles
+- Updated frontmatter: raw/articles/Nature Communications 2026｜AlphaFold 能算出完整互作组吗？这篇实验评估给出答案.md — citation/sha256/DOI/domain: ai-drug-discovery
+### concepts
+- Created: concepts/ai-interactome-mapping-limitations.md — AF/RF PPI 发现边界、CCC 指标、实验+AI 互补工作流
+### cross-ref
+- entities/alphafold3.md: 已知局限 +1 (PPI discovery weakness), 交叉引用 +1
+- entities/pplm.md: 交叉引用 +1
+### index.md
+- Updated page count: 199 → 201
+- Concepts: +1 (ai-interactome-mapping-limitations)
+- Raw sources (ai-drug-discovery): +1
+- Cross-ref count: +1 (raw article)
+
+## [2026-06-12] ingest | Promera — 蛋白Binder折叠·筛选·设计统一模型（BioTender观测日志·微信公众号）
+### raw/articles
+- raw/articles/MIT全能蛋白 Binder 模型——Promera！接管设计、折叠、筛选全流程！！.md — YAML frontmatter added (citation/sha256/domain: ai-drug-discovery)
+- Source: BioTender 观测日志微信公众号，解读 Jing B, Berger B, Klivans A. Promera bioRxiv 2026, code: github.com/bjing2016/promera
+
+### entities
+- Created: entities/promera.md — Promera 实体页：统一co-folding/筛选/设计三个环节，ipSAE binder筛选 AUROC 0.70 碾压 AF-Multimer/Boltz-2，iCS nanobody 20×富集，4靶点设计超 BoltzGen 追平 mBER，scaling law (R²=0.969, p=0.03) 揭示开源与AF3差距在数据/算力非架构
+
+### index.md
+- Updated page count: 201 → 202
+- Entities (ai-drug-discovery): +1 ([[promera]])
+- Raw sources (ai-drug-discovery): +1 (raw article)
+
+## [2026-06-25] ingest | 徐可课题组 IOMS AI电子鼻（科医诺生物公众号）
+### raw/articles
+- Raw: raw/articles/AdvSci-徐可课题组-AI电子鼻闻出病毒.md — 科医诺生物公众号发布 IOMS 电子鼻科普：7-8h 检测病毒感染，机器学习 99.88% 准确率
+### entities
+- e-nose-respiratory-infection-zju-acs.md: sources +1 (IOMS 电子鼻科普)
+### index.md
+- machine-learning section: +1 (AdvSci-徐可课题组-AI电子鼻闻出病毒)
+### cross-ref
+- raw/papers/2026-AdvancedScience-IOMS-IntelligentOdorMonitoringSystem-Shen.md (对应学术论文全文)

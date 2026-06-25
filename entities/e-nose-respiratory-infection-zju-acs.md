@@ -5,7 +5,9 @@ updated: 2026-05-21
 type: entity
 tags: [e-nose, graphene, respiratory-infection, SVM, random-forest, lasso, ensemble, breath-analysis]
 domain: machine-learning
-sources: [raw/articles/Graphene-E-Nose-Respiratory-Infection-ZJU-ACS.md]
+sources:
+  - raw/articles/Graphene-E-Nose-Respiratory-Infection-ZJU-ACS.md
+  - raw/articles/AdvSci-徐可课题组-AI电子鼻闻出病毒.md
 confidence: moderate
 ---
 
