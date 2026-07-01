@@ -1098,6 +1098,25 @@
 ### index.md
 - Raw source entry added under machine-learning +1, page count: 198 → 199
 
+## [2026-06-26] ingest | LucaVirus 病毒多模态基础模型（Pan Y-F, 2026 preprint）
+### raw/papers
+- Created: raw/papers/pan2026-lucavirus.md — YAML frontmatter added (citation/sha256/DOI/domain: machine-learning)
+- Source: LucaOne team (Alibaba Cloud + Sun Yat-sen University), GitHub: https://github.com/LucaOne/LucaVirus
+- 38 images from MinerU extraction copied to raw/papers/images/
+### index.md
+- Updated page count: 202 → 203
+- Raw sources (machine-learning): +1 ([[raw/papers/pan2026-lucavirus]])
+
+## [2026-06-26] ingest | LucaVirus 公众号解读（中国病毒学英文版）
+### raw/articles
+- Created: raw/articles/NSR-中山大学施莽-LucaVirus大模型-病毒发现功能进化预测.md — YAML frontmatter added (citation/domain: machine-learning)
+- Source: 中国病毒学英文版公众号 (Virologica Sinica, 公众号ID: virologica), 2026-06-17
+### raw/papers
+- Updated: pan2026-lucavirus.md — paper_type: preprint→original-research, citation updated to NSR 2026 doi:10.1093/nsr/nwag376
+### index.md
+- Updated page count: 203 → 204
+- Raw sources (machine-learning): +1 (raw article)
+
 ## [2026-06-10] ingest | AI 互作组预测实验评估（Lambourne L, Nat Commun 2026）
 ### raw/articles
 - Updated frontmatter: raw/articles/Nature Communications 2026｜AlphaFold 能算出完整互作组吗？这篇实验评估给出答案.md — citation/sha256/DOI/domain: ai-drug-discovery
@@ -1134,3 +1153,20 @@
 - machine-learning section: +1 (AdvSci-徐可课题组-AI电子鼻闻出病毒)
 ### cross-ref
 - raw/papers/2026-AdvancedScience-IOMS-IntelligentOdorMonitoringSystem-Shen.md (对应学术论文全文)
+
+## [2026-07-01] ingest | LucaPhylo 无比对系统发育推断（Shan Y-T, bioRxiv 2026）
+### raw/papers
+- Created: raw/papers/shan2026-lucaphylo.md — YAML frontmatter added (citation/sha256/DOI/domain: machine-learning)
+- Source: Luca team (Alibaba Cloud + Sun Yat-sen University), GitHub: https://github.com/NickShannn/LucaPhylo
+- 30 images from MinerU extraction copied to raw/papers/images/
+### index.md
+- Updated page count: 204 → 205
+- Raw sources (machine-learning): +1 ([[raw/papers/shan2026-lucaphylo]])
+
+## [2026-07-01] ingest | LucaPhylo 公众号解读（宏转录组）
+### raw/articles
+- Frontmatter added: raw/articles/中山大学-阿里-LucaPhylo-无序列比对进化树-高分化病毒.md — citation/domain: machine-learning/tags/related_papers (related to raw/papers/shan2026-lucaphylo)
+- Source: 宏转录组微信公众号，2026
+### index.md
+- Updated page count: 205 → 206
+- Raw sources (machine-learning): +1 ([[raw/articles/中山大学-阿里-LucaPhylo-无序列比对进化树-高分化病毒]])

@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-06-12 | Total pages: 202 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 201 pages -->
+> Last updated: 2026-07-01 | Total pages: 206 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 206 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -214,7 +214,11 @@
 |- [[raw/articles/奥明星程-AI4S-超亿元A轮-多组学多模态]] — 奥明星程超亿元A轮，哈佛博士团队，AI+多组学多模态，乳腺癌早筛 OS-TuFEst-BRCA 灵敏度92-95%（动脉网微信公众号，2026）
 |- [[raw/articles/复鞍智能-AI4S物质科学-复旦科创种子轮]] — 复鞍智能种子轮，复旦刘智攀团队，AI4S催化材料分子反应研发（建研院微信公众号，2026）
 ### machine-learning
-||||- [[raw/articles/Graphene-E-Nose-Respiratory-Infection-ZJU-ACS]] — 石墨烯电子鼻×机器学习区分细菌/病毒呼吸道感染，SVM/RF/Lasso加权融合模型，145例临床呼气样本+43例外部测试，AUC 0.87（ACS Nano 2025 浙江大学邬建敏，微信公众号·有机配体和荧光染料最新研究）
+- [[raw/papers/pan2026-lucavirus]] — LucaVirus 多模态病毒基础模型，25.4B nt+aa tokens 统一核苷酸-蛋白质表征，病毒暗物质注释/酶活性预测/进化能力预测/抗体候选筛选（Pan Y-F, Natl Sci Rev 2026, 阿里云+中山大学）
+- [[raw/articles/NSR-中山大学施莽-LucaVirus大模型-病毒发现功能进化预测]] — NSR 论文解读：LucaVirus 10亿参数病毒基础模型，254亿token训练，四类病毒学任务（中国病毒学英文版公众号，2026-06-17）
+- [[raw/papers/shan2026-lucaphylo]] — LucaPhylo 无比对系统发育推断：ESM2-650M 蛋白语言模型 + 双曲几何，RNA 病毒超群识别 ARI 0.89/分类准确率 >91%，四阶段级联训练（Shan Y-T, bioRxiv 2026, 阿里云+中山大学）
+- [[raw/articles/中山大学-阿里-LucaPhylo-无序列比对进化树-高分化病毒]] — 宏转录组公众号解读：LucaPhylo 解决高分化病毒序列比对失败问题，无需GPU 32线程 CPU 20分钟处理1000条序列，零序列丢弃（宏转录组微信公众号，2026）
+|||||- [[raw/articles/Graphene-E-Nose-Respiratory-Infection-ZJU-ACS]]
 ||||- [[raw/articles/AdvSci-徐可课题组-AI电子鼻闻出病毒]] — IOMS 智能气味监测系统实时非侵入检测呼吸道病毒感染，传感器阵列+机器学习 KNN/SVM/LDA，7天360万数据点，内部准确率 99.88%（Advanced Science 2026 武汉大学徐可/华中科技大学刘欢，科医诺生物公众号）
 ||||- [[raw/articles/随机森林+贝叶斯优化-深夜努力写Python]]
 ||- [[raw/articles/随机森林算法全面讲解-机器学习和人工智能AI]] — Random Forest 全面教程：Bagging + 随机特征选择、Gini/MSE分裂准则、复杂度分析、sklearn 代码案例、GridSearchCV 超参数调优（微信公众号·机器学习和人工智能AI）
