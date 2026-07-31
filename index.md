@@ -78,6 +78,8 @@
 - [[featuremap]] — FeatureMAP 特征保持流形逼近与投影，局部切空间嵌入保留基因变异信息，GEX/GVA 双嵌入 + 核心/转换态 + DGV 分析（Yang Y, Nat Comput Sci 2026）
 - [[five-cancer-screening-guide]] — 五大癌种筛查指南（乳腺/结直肠/宫颈/前列腺/肺癌），AI辅助，MCED补充（Duffy SW, Nat Rev Clin Oncol 2026）
 - [[ai4s-business-framework]] — AI4S赛道框架：感知行合四种生意，License-out/SaaS/IDM三种变现，DBTL飞轮，商业化甜蜜点迁移（钛资本研究院）
+- [[vla-robot-foundation-models]] — VLA 机器人基础模型：视觉编码+LLM主干+动作解码端到端统一（RT-2/OpenVLA/π0/Gemini Robotics/GR00T），动作token化/连续离散化/Flow Matching三方案，行为克隆训练，人类视频数据规模化路线；AI4S 机器人实验平台执行层底座（Ma Y, arXiv 2405.14093; Feng Z, arXiv 2606.00054）
+- [[world-models]] — 世界模型：环境演化的内部模拟器，RSSM/Dreamer潜在空间想象、Sora像素级生成、JEPA表示预测三路线；model-based RL数据效率；机器人学习五作用（策略学习/规划/仿真/数据生成/安全验证）；AI4S 数字-物理闭环预测引擎（Zhu Z, arXiv 2405.03520; Hou B, arXiv 2605.00080）
 - [[random-forest]] — Random Forest（随机森林）集成学习算法：Bagging + 随机特征选择，分类/回归/特征重要性，生物信息学应用（特征筛选/微生物分类/污染检测/癌症早筛）
 - [[svm]] — SVM 支持向量机：最大间隔超平面、核技巧（线性/RBF/多项式）、与 RF 对比，生信应用（CNV 过滤/微阵列分类/蛋白质定位）
 - [[transformer]] — Transformer 自注意力机制：多头注意力、位置编码、Transformer+LSTM 时序融合架构，生信应用（蛋白质语言模型 ESM/基因表达时序/DNA 序列建模）

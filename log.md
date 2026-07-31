@@ -1187,3 +1187,10 @@
 ### index.md
 - Updated page count: 207 → 208
 - Raw sources (ai-drug-discovery): +1 ([[raw/articles/晶泰科技-XtalPiScience-GeniusAgents-科学智能开放生态联盟]])
+
+## [2026-07-31] create | 概念页：VLA 机器人基础模型 + 世界模型（Physical AI 技术栈）
+### concepts
+- Created: concepts/vla-robot-foundation-models.md — 定义/架构数学原理（动作token化/离散化/Flow Matching）/代表模型（RT-2/OpenVLA/π0/Gemini Robotics/GR00T）/关键挑战/AI4S关联；sources: 晶泰文章 + arXiv 2405.14093 + arXiv 2606.00054
+- Created: concepts/world-models.md — RSSM/Dreamer潜在空间想象、Sora像素生成、JEPA表示预测三路线/机器人学习五作用/AI4S数字-物理闭环关联；sources: 晶泰文章 + arXiv 2405.03520 + arXiv 2605.00080
+### index.md
+- Concepts: +2 ([[vla-robot-foundation-models]], [[world-models]])
