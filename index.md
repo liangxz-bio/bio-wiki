@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-07-01 | Total pages: 206 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 206 pages -->
+> Last updated: 2026-07-31 | Total pages: 207 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 207 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -135,6 +135,7 @@
 ||- [[raw/articles/ESM-World-Model-Biohub-Zuckerberg-智药局]] — Biohub（CZI/扎克伯格）开源全球首个蛋白质世界模型，ESMC+ESMFold2+ESM Atlas三组件，68亿蛋白图谱，5靶点36-88%命中率，开源免费（智药局微信公众号，2026）
 ||- [[raw/articles/Nature Communications 2026｜AlphaFold 能算出完整互作组吗？这篇实验评估给出答案]] — AI 互作组映射系统实验评估：AF/RF 高置信但新 PPI 发现远落后于实验方法，CCC 指标，实验+AI 互补工作流（Lambourne L, Nat Commun 2026）
 ||- [[raw/articles/MIT全能蛋白 Binder 模型——Promera！接管设计、折叠、筛选全流程！！]] — Promera 蛋白 Binder 折叠·筛选·设计统一模型，ipSAE 筛选 AUROC 0.70，4靶点设计超 BoltzGen、追平 mBER，bioRxiv 2026（BioTender观测日志）
+||- [[raw/articles/AI造出了更好的分子却没造出更好的药-黑箱与真值]] — AIDD深度分析：Phase I 80-90% vs Phase II 40%（与传统37%无显著差异）、170+临床AI分子0获批；生成式AI（模式插值）vs 推理AI（因果推理）二分、因果之梯三层次；L1-L5串联系统级联误差，99%分子精度下整体成功率仍仅~6%；FDA ISTAND首个in silico DDT/现代化法案2.0/GAIP监管信号；Human Ground Truth数据壁垒（Perturb-Seq/器官芯片多组学）；Recursion-Exscientia合并数据战略；DaaS CRO新物种（微信公众号·黑箱与真值，2026）
 ||
 ### bioinfo-pipeline
 - [[raw/papers/yang2026-featuremap-natcompsci]] — FeatureMAP 特征保持流形逼近与投影，基于局部 PCA 切空间嵌入保留基因信息，GEX/GVA 双嵌入策略（Yang Y, Nat Comput Sci 2026）

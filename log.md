@@ -1170,3 +1170,11 @@
 ### index.md
 - Updated page count: 205 → 206
 - Raw sources (machine-learning): +1 ([[raw/articles/中山大学-阿里-LucaPhylo-无序列比对进化树-高分化病毒]])
+
+## [2026-07-31] ingest | AI造出了更好的分子，却没造出更好的药（微信公众号·黑箱与真值）
+### raw/articles
+- Created: raw/articles/AI造出了更好的分子却没造出更好的药-黑箱与真值.md — frontmatter added (source_url/sha256/citation/domain: ai-drug-discovery/paper_type: news-article)
+- Source: 黑箱与真值微信公众号，2026
+### index.md
+- Updated page count: 206 → 207
+- Raw sources (ai-drug-discovery): +1 ([[raw/articles/AI造出了更好的分子却没造出更好的药-黑箱与真值]])
