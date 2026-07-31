@@ -1194,3 +1194,13 @@
 - Created: concepts/world-models.md — RSSM/Dreamer潜在空间想象、Sora像素生成、JEPA表示预测三路线/机器人学习五作用/AI4S数字-物理闭环关联；sources: 晶泰文章 + arXiv 2405.03520 + arXiv 2605.00080
 ### index.md
 - Concepts: +2 ([[vla-robot-foundation-models]], [[world-models]])
+
+## [2026-07-31] ingest | Raygun 模板化蛋白质设计（Devkota K, Nature 2026）
+### raw/papers
+- Created: raw/papers/devkota2026-raygun-nature.md — YAML frontmatter added (citation/sha256/DOI/domain: ai-drug-discovery/paper_type: original-research)
+- Source: /mnt/d/Ref/2026-Nature-Miniaturizing and modifying natural proteins with Raygun.pdf (22.1M, MinerU parsed, Open access)
+- ~134 images from MinerU extraction copied to raw/papers/images/ (130 referenced)
+- GitHub: https://github.com/rohitsinghlab/raygun
+### index.md
+- Updated page count: 208 → 209
+- Raw sources (ai-drug-discovery): +1 ([[raw/papers/devkota2026-raygun-nature]])

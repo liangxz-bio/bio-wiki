@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-07-31 | Total pages: 208 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 208 pages -->
+> Last updated: 2026-07-31 | Total pages: 209 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 209 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -105,6 +105,7 @@
 - [[raw/papers/kosonocky2026-ai-protein-design-cosb]] — Curr Opin Struct Biol 2026 原始论文：AI蛋白设计实验验证方法系统综述，binder/antibody/enzyme 三类方法实验成功率表格 (Kosonocky CW, COSB 2026)
 - [[raw/papers/isomorphic2026-isodde]] — IsoDDE Isomorphic Labs Drug Design Engine 技术报告：全面超越AF3的蛋白-小分子/抗体-抗原/亲和力预测 (Isomorphic Labs, 2026)
 - [[raw/papers/liu2026-protdbench-arxiv]] — ProtDBench arXiv 2026 原始论文：蛋白binder设计统一评测基准，verifier偏差+throughput-aware+多样性分析 (Liu C, arXiv 2026)
+- [[raw/papers/devkota2026-raygun-nature]] — Raygun 模板化蛋白质设计（Nature 2026）：autoencoder 编码固定 64,000 维多元正态分布（K=50 blocks×1280），任意长度蛋白直接可比；noise/length 两参数控制替换+插入缺失；单次生成 0.3s 快~100倍；荧光蛋白小型化 6/8 荧光、TurboID 活性保持、EGF 扩展增强 EGFR 亲和力；mTOR 缩减 25% TM≈0.7；UniRef50 80K 蛋白训练 701M 参数（Devkota K, Nature 2026, 杜克大学，Open access）
 - [[raw/articles/RegFormer-单细胞大模型Mamba架构-NatCommun2026]] — RegFormer 单细胞 Mamba 基础模型，基因调控拓扑排序 + 双重嵌入 + 药物敏感性预测（微信公众号·生物信息与人工智能，2026/05）
 - [[raw/articles/David-Baker-Nature综述-蛋白质从头设计的过去现在与未来]] — David Baker Nature 2026 综述：从头蛋白设计从物理模型到生成式AI，折叠/组装/结合已基本解决（微信公众号·BrainMed Lab）
 - [[raw/articles/RFdiffusion-蛋白质从头设计-Nature论文详解]] — RFdiffusion Nature 2023 论文详解：扩散模型微调RoseTTAFold生成蛋白骨架，单体/对称寡聚体/结合物/基序支架（微信公众号·AI-Protein Design）
