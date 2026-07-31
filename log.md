@@ -1178,3 +1178,12 @@
 ### index.md
 - Updated page count: 206 → 207
 - Raw sources (ai-drug-discovery): +1 ([[raw/articles/AI造出了更好的分子却没造出更好的药-黑箱与真值]])
+
+## [2026-07-31] ingest | 跨越数字鸿沟，迈向物理智能：晶泰科技发布XtalPi Science（晶泰科技公众号）
+### raw/articles
+- Created: raw/articles/晶泰科技-XtalPiScience-GeniusAgents-科学智能开放生态联盟.md — frontmatter added (source_url/sha256/citation/domain: ai-drug-discovery/paper_type: news-article/tags: ai4s,xtalpi,physical-ai,multi-agent,science-token)
+- Source: 晶泰科技微信公众号，2026-07-30
+- 内容: XtalPi Science 全球首个LLM+科学智能体+自动化机器人实验AI4S平台，Science Token机制，Genius Agents多智能体，SureRoute/SureRXN性能数据，27家生态联盟
+### index.md
+- Updated page count: 207 → 208
+- Raw sources (ai-drug-discovery): +1 ([[raw/articles/晶泰科技-XtalPiScience-GeniusAgents-科学智能开放生态联盟]])
