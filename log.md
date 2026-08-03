@@ -1204,3 +1204,19 @@
 ### index.md
 - Updated page count: 208 → 209
 - Raw sources (ai-drug-discovery): +1 ([[raw/papers/devkota2026-raygun-nature]])
+
+## [2026-08-03] ingest | AI-redesigned starting points and outcomes enhance protein evolution（Krasnow NA, Nature 2026）— 论文+公众号双入库
+### raw/papers
+- Created: raw/papers/krasnow2026-ai-redesigned-protein-evolution-nature.md — YAML frontmatter added (citation/sha256/DOI/domain: ai-drug-discovery/paper_type: original-research)
+- Source: /mnt/d/Ref/2026-Nature-ProteinMPNN.pdf (13.3M, MinerU parsed, Open access)
+- 159 images from MinerU extraction copied to raw/papers/images/
+### raw/articles
+- Created: raw/articles/Nature-哈佛AI重设计救回进化蛋白酶.md — frontmatter added (source_url/sha256/citation/domain: ai-drug-discovery/paper_type: news-article/related_papers)
+- Source: AI蛋白质前沿站微信公众号，2026-08-03
+### index.md
+- Updated page count: 209 → 211
+- Raw sources (ai-drug-discovery): +2 ([[raw/papers/krasnow2026-ai-redesigned-protein-evolution-nature]], [[raw/articles/Nature-哈佛AI重设计救回进化蛋白酶]])
+### cross-ref
+- raw/papers/krasnow2026-ai-redesigned-protein-evolution-nature.md: WeChat解读 +1 (Nature-哈佛AI重设计救回进化蛋白酶)
+- raw/articles/Nature-哈佛AI重设计救回进化蛋白酶.md: 对应论文 +1 (krasnow2026-ai-redesigned-protein-evolution-nature)
+- 关联: raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场.md（同为刘如谦组 AI 救场进化蛋白主题，index 相邻排列）

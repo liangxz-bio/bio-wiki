@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-07-31 | Total pages: 209 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 209 pages -->
+> Last updated: 2026-08-03 | Total pages: 211 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 211 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -135,6 +135,8 @@
 |- [[raw/papers/hou2026-seqdance-esmdance-pnas]] — SeqDance/ESMDance 基于 MD 动力学预训练的 pLM 原始论文：Transformer 编码残基共运动/全局构象，零样本预测设计蛋白/病毒蛋白突变效应（Hou C, PNAS 2026）
 ||- [[raw/articles/ORI-腾讯AI4S蛋白设计闭环-NatureComm2026]] — ORI 腾讯 AI4S 本体强化迭代蛋白设计闭环，PDA + PGM + USM + RLWF，溶菌酶/几丁质酶/双功能酶实验验证，TX-RL15 活性超天然溶菌酶两个数量级（He B, Nat Commun 2026，微信公众号·AI药物设计实验室）
 ||- [[raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场]] — 刘如谦组 Nat Biotechnol 2026：定向进化越改越脆、AI蛋白设计（ProteinMPNN）救场，PE8系列 2.0-2.3x 表达 +8°C Tm，体内编辑44% vs PE7 25%，"进化打底、AI加固"互补范式（BioTender观测日志）
+||- [[raw/papers/krasnow2026-ai-redesigned-protein-evolution-nature]] — AI重设计起点与结局增强蛋白质进化（Nature 2026）：ProteinMPNN 重设计 BoNT/E/F/X 蛋白酶为进化起点，44 个独立 PACE 通道系统对比，AI 重设计起点一贯优于野生型；E(4130)A2 嫁接表达 +2.2-5.2x、ataxin-2 选择性 >79x 且 SNAP25 绝对零切割（Krasnow NA, Nature 2026, 哈佛/Broad 刘如谦组，Open access）
+||- [[raw/articles/Nature-哈佛AI重设计救回进化蛋白酶]] — 哈佛团队 ProteinMPNN 重设计 BoNT 蛋白酶作进化起点：D1-D3 催化效率 1.7-2.8x、Tm 47→54-56°C；44 通道平行 PACE 均优于野生型；ataxin-2 治疗靶点选择性 >79x+"绝对特异性"（AI蛋白质前沿站，2026/08）
 ||- [[raw/articles/ESM-World-Model-Biohub-Zuckerberg-智药局]] — Biohub（CZI/扎克伯格）开源全球首个蛋白质世界模型，ESMC+ESMFold2+ESM Atlas三组件，68亿蛋白图谱，5靶点36-88%命中率，开源免费（智药局微信公众号，2026）
 ||- [[raw/articles/Nature Communications 2026｜AlphaFold 能算出完整互作组吗？这篇实验评估给出答案]] — AI 互作组映射系统实验评估：AF/RF 高置信但新 PPI 发现远落后于实验方法，CCC 指标，实验+AI 互补工作流（Lambourne L, Nat Commun 2026）
 ||- [[raw/articles/MIT全能蛋白 Binder 模型——Promera！接管设计、折叠、筛选全流程！！]] — Promera 蛋白 Binder 折叠·筛选·设计统一模型，ipSAE 筛选 AUROC 0.70，4靶点设计超 BoltzGen、追平 mBER，bioRxiv 2026（BioTender观测日志）
