@@ -1220,3 +1220,10 @@
 - raw/papers/krasnow2026-ai-redesigned-protein-evolution-nature.md: WeChat解读 +1 (Nature-哈佛AI重设计救回进化蛋白酶)
 - raw/articles/Nature-哈佛AI重设计救回进化蛋白酶.md: 对应论文 +1 (krasnow2026-ai-redesigned-protein-evolution-nature)
 - 关联: raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场.md（同为刘如谦组 AI 救场进化蛋白主题，index 相邻排列）
+
+## [2026-08-03] update | 概念页 ai-evolution-complementary-protein-engineering 补充 Nature 2026 系统性验证
+### concepts
+- Updated: concepts/ai-evolution-complementary-protein-engineering.md — sources +2 (krasnow2026-ai-redesigned-protein-evolution-nature + Nature-哈佛AI重设计救回进化蛋白酶), updated: 2026-08-03
+- 新增小节"Nature 2026 系统性验证：AI 重设计起点 > 野生型起点（44 通道平行进化）"——BoNT/E/F/X 三种血清型、44 个独立 PACE 通道、ataxin-2 选择性 >79x、D4/PROSS1 对照证明规律不依赖特定 AI 模型
+### index.md
+- 无改动（概念页条目已存在，描述维持）

@@ -1,13 +1,15 @@
 ---
 title: 进化+AI互补蛋白工程范式 — 进化管活性、AI管稳定性
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-03
 type: concept
 domain: ai-drug-discovery
 tags: [ai-drug-discovery, vaccine-design, protein-engineering, stability-activity-tradeoff, ProteinMPNN, inverse-folding, directed-evolution]
 sources:
   - raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场.md
   - entities/de-novo-protein-design.md
+  - raw/papers/krasnow2026-ai-redesigned-protein-evolution-nature.md
+  - raw/articles/Nature-哈佛AI重设计救回进化蛋白酶.md
 confidence: high
 ---
 
@@ -56,6 +58,19 @@ ProteinMPNN（逆折叠网络）**不碰催化核心，专门修地基**。策�
 | 突变规模 | 每轮 1-17 个 | 一次 30-163 个 |
 | 副作用 | 降低稳定性（偏科选手） | 不破坏催化活性 |
 | 分工角色 | 管"心脏" | 管"骨架" |
+
+## Nature 2026 系统性验证：AI 重设计起点 > 野生型起点（44 通道平行进化）
+
+Krasnow 等（Nature 2026，刘如谦组）把同一范式推到蛋白酶上做了一次迄今最系统的对照实验——**不是验证单点，而是验证"AI 重设计作为进化起点"这一策略本身**：
+
+- **对象**：三种肉毒杆菌神经毒素蛋白酶（BoNT/E、BoNT/F、BoNT/X），用 ProteinMPNN 重设计（约束底物结合口袋 14/18 Å + 进化保守残基 30%/60%，其余位置重设计，AF2 验证）
+- **重设计效果**：BoNT/E 74 个设计中 58 个（78%）有功能，33 个（45%）催化效率 ≥ 野生型；最优 D1-D3 催化效率 260/310/190 mM⁻¹s⁻¹（野生型 110），Tm 从 ~47°C 升至 54-56°C
+- **核心实验**：三种难度递增底物（415/413/412）× 四种起点（D3、D4、PROSS1、野生型）= 44 个独立 PACE 进化通道
+- **结果一（普适性）**：AI 重设计起点一贯优于野生型，越难的任务优势越大——最难底物上野生型 4 个重复中 2 个完全进化失败，D3 全部成功
+- **结果二（机理）**：AI 重设计来源的突变嫁接到野生型背景后完全不工作，野生型突变嫁接到 AI 背景则工作良好——AI 重设计不是抬高起点，而是**扩大可访问的适应度序列空间**（ESM-C 嵌入显示野生型景观稀疏、AI 起点抬高基线适应度）
+- **结果三（治疗场景）**：ataxin-2 特异性切割（双选择压力，正选择 + 负选择 SNAP25），AI 起点进化变体对 ataxin-2 选择性比野生型起点高 **79 倍以上**，且 SNAP25 绝对零切割（"绝对特异性"重编程）；D4（催化比野生型慢 20 倍）和 PROSS1（传统 Rosetta 能量法）起点同样优于野生型，证明规律不依赖特定 AI 模型
+
+这从蛋白酶角度补全了 PE8（碱基编辑器）的证据：**"进化打底、AI 加固"不是单点巧合，而是可推广的蛋白工程范式**。详见 [[raw/papers/krasnow2026-ai-redesigned-protein-evolution-nature]] 与 [[raw/articles/Nature-哈佛AI重设计救回进化蛋白酶]]。
 
 ## 启示
 - 现在大量"AI+酶"的工作还在用 AI 干进化干的事——猛冲活性。这篇文章证明了更聪明的玩法：让两者各做最擅长的。
