@@ -1239,3 +1239,12 @@
 ### index.md
 - Updated page count: 211 → 213
 - Raw sources (machine-learning): +2 ([[raw/papers/rao2021-msa-transformer-icml]], [[raw/papers/lin2023-esm2-esmfold-science]])
+
+## [2026-08-13] ingest | ESM 下游应用综述（Yang Q, Quant Biol 2026）
+### raw/papers
+- Created: raw/papers/yang2026-esm-downstream-survey-quantbiol.md — YAML frontmatter added (citation/sha256/DOI/domain: machine-learning/paper_type: review)
+- Source: /mnt/d/Ref/2026-A survey of downstream applications of ESM.pdf (705.8K, MinerU parsed, doi: 10.1002/qub2.70013)
+- 8 images from MinerU extraction copied to raw/papers/images/
+### index.md
+- Updated page count: 213 → 214
+- Raw sources (machine-learning): +1 ([[raw/papers/yang2026-esm-downstream-survey-quantbiol]])
