@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-08-03 | Total pages: 211 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 211 pages -->
+> Last updated: 2026-08-13 | Total pages: 213 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
+<!-- ↑ Total 213 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -221,6 +221,8 @@
 |- [[raw/articles/奥明星程-AI4S-超亿元A轮-多组学多模态]] — 奥明星程超亿元A轮，哈佛博士团队，AI+多组学多模态，乳腺癌早筛 OS-TuFEst-BRCA 灵敏度92-95%（动脉网微信公众号，2026）
 |- [[raw/articles/复鞍智能-AI4S物质科学-复旦科创种子轮]] — 复鞍智能种子轮，复旦刘智攀团队，AI4S催化材料分子反应研发（建研院微信公众号，2026）
 ### machine-learning
+- [[raw/papers/rao2021-msa-transformer-icml]] — MSA Transformer：轴向注意力+tied row attention 处理 MSA 的蛋白质语言模型，100M 参数/26M MSAs 预训练，无监督接触预测 top-L 长程精度 57.4 大幅超越 ESM-1b 与 Potts，8-16 条序列即可高精度预测（Rao R, ICML 2021, Facebook AI Research）
+- [[raw/papers/lin2023-esm2-esmfold-science]] — ESM-2/ESMFold：蛋白质语言模型 scaling 至 15B 参数涌现原子级结构，单序列端到端结构预测 CAMEO TM 0.83，ESM Metagenomic Atlas 折叠 >6.17 亿宏基因组蛋白（Lin Z, Science 2023）
 - [[raw/papers/pan2026-lucavirus]] — LucaVirus 多模态病毒基础模型，25.4B nt+aa tokens 统一核苷酸-蛋白质表征，病毒暗物质注释/酶活性预测/进化能力预测/抗体候选筛选（Pan Y-F, Natl Sci Rev 2026, 阿里云+中山大学）
 - [[raw/articles/NSR-中山大学施莽-LucaVirus大模型-病毒发现功能进化预测]] — NSR 论文解读：LucaVirus 10亿参数病毒基础模型，254亿token训练，四类病毒学任务（中国病毒学英文版公众号，2026-06-17）
 - [[raw/papers/shan2026-lucaphylo]] — LucaPhylo 无比对系统发育推断：ESM2-650M 蛋白语言模型 + 双曲几何，RNA 病毒超群识别 ARI 0.89/分类准确率 >91%，四阶段级联训练（Shan Y-T, bioRxiv 2026, 阿里云+中山大学）

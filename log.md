@@ -1227,3 +1227,15 @@
 - 新增小节"Nature 2026 系统性验证：AI 重设计起点 > 野生型起点（44 通道平行进化）"——BoNT/E/F/X 三种血清型、44 个独立 PACE 通道、ataxin-2 选择性 >79x、D4/PROSS1 对照证明规律不依赖特定 AI 模型
 ### index.md
 - 无改动（概念页条目已存在，描述维持）
+
+## [2026-08-13] ingest | MSA Transformer（Rao R, ICML 2021）+ ESM-2/ESMFold（Lin Z, Science 2023）双入库
+### raw/papers
+- Created: raw/papers/rao2021-msa-transformer-icml.md — YAML frontmatter added (citation/sha256/DOI/domain: machine-learning/paper_type: original-research)
+- Source: /mnt/d/Ref/2021-ICML-ESM-MSA-1b.pdf (3.3M, MinerU parsed)
+- 12 images from MinerU extraction copied to raw/papers/images/
+- Created: raw/papers/lin2023-esm2-esmfold-science.md — YAML frontmatter added (citation/sha256/DOI/domain: machine-learning/paper_type: original-research)
+- Source: /mnt/d/Ref/2023-Science-ESM2.pdf (4.8M, MinerU parsed, doi: 10.1126/science.ade2574)
+- 18 images from MinerU extraction copied to raw/papers/images/
+### index.md
+- Updated page count: 211 → 213
+- Raw sources (machine-learning): +2 ([[raw/papers/rao2021-msa-transformer-icml]], [[raw/papers/lin2023-esm2-esmfold-science]])
