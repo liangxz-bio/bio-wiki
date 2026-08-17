@@ -1248,3 +1248,16 @@
 ### index.md
 - Updated page count: 213 → 214
 - Raw sources (machine-learning): +1 ([[raw/papers/yang2026-esm-downstream-survey-quantbiol]])
+
+## [2026-08-17] re-ingest | LucaVirus 论文更换为 NSR 正式版（Pan Y-F, Natl Sci Rev 2026）重新入库
+### raw/papers
+- Replaced: raw/papers/pan2026-lucavirus.md — 旧版（2026-06-26 入库，preprint/早期版）正文整体替换为 NSR 正式排版版（Received 12 Apr / Revised 21 May / Accepted 31 May 2026）
+- Source: /mnt/d/Ref/2026-LucaVirus.pdf (24.5M, MinerU parsed) — 新 sha256: ad9c1ae6016a5ef417f46de0aa6e10eb8efdcbc138d279cbbae72262a781a52e
+- 33 images from MinerU extraction copied to raw/papers/images/（旧版图片未入库，本次补齐）
+- Frontmatter 更新：ingested: 2026-08-17 / extraction_date: 2026-08-17 / sha256 / source_url 更新为 NSR 正式版 article 链接
+- 正式版新增内容：LMAlign 嵌入比对算法（SCOPe 上优于 Smith-Waterman/Needleman-Wunsch）；抗体-抗原湿实验验证（Wuhan-Hu-1 84.6% / Omicron 89.8%，命中率~1/2）；湿地沉积物独立暗物质数据集 100% recall；消融（统一多模态 9 任务胜 7）；LucaOne 10 项泛化基准保留 90%；安全设计（encoder-only 无生成能力）
+- code: github.com/LucaOne/LucaVirus + LucaVirusTasks；权重/数据 Zenodo: 10.5281/zenodo.15703216
+### index.md
+- Updated: [[raw/papers/pan2026-lucavirus]] 条目描述（补充正式版关键指标）
+### 关联
+- 公众号解读 [[raw/articles/NSR-中山大学施莽-LucaVirus大模型-病毒发现功能进化预测]] 保持不动（内容与新正文一致，均为 NSR 版信息）

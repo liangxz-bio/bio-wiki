@@ -224,7 +224,7 @@
 - [[raw/papers/rao2021-msa-transformer-icml]] — MSA Transformer：轴向注意力+tied row attention 处理 MSA 的蛋白质语言模型，100M 参数/26M MSAs 预训练，无监督接触预测 top-L 长程精度 57.4 大幅超越 ESM-1b 与 Potts，8-16 条序列即可高精度预测（Rao R, ICML 2021, Facebook AI Research）
 - [[raw/papers/lin2023-esm2-esmfold-science]] — ESM-2/ESMFold：蛋白质语言模型 scaling 至 15B 参数涌现原子级结构，单序列端到端结构预测 CAMEO TM 0.83，ESM Metagenomic Atlas 折叠 >6.17 亿宏基因组蛋白（Lin Z, Science 2023）
 - [[raw/papers/yang2026-esm-downstream-survey-quantbiol]] — ESM 下游应用综述：约100篇引用ESM六篇原始论文的高影响力工作，技术路线（预训练/微调/prompting）× 应用领域（结构预测/功能注释/蛋白设计/突变效应）双维度分类（Yang Q, Quant Biol 2026, 上海科技大学）
-- [[raw/papers/pan2026-lucavirus]] — LucaVirus 多模态病毒基础模型，25.4B nt+aa tokens 统一核苷酸-蛋白质表征，病毒暗物质注释/酶活性预测/进化能力预测/抗体候选筛选（Pan Y-F, Natl Sci Rev 2026, 阿里云+中山大学）
+- [[raw/papers/pan2026-lucavirus]] — LucaVirus 病毒多模态基础模型（NSR 正式版）：1B 参数 encoder-only，OpenVirus 15.7M 序列/25.4B tokens，暗物质 hallmark 发现（RdRP 100%/capsid 99.86%）、酶注释（湿实验验证 CL6/CL31）、适应度景观（RBD DMS 0.93；ProteinGym 追平 ESM3）、抗体筛选（命中率~1/2）+ LMAlign 嵌入比对（Pan Y-F, Natl Sci Rev 2026, 阿里云+中山大学）
 - [[raw/articles/NSR-中山大学施莽-LucaVirus大模型-病毒发现功能进化预测]] — NSR 论文解读：LucaVirus 10亿参数病毒基础模型，254亿token训练，四类病毒学任务（中国病毒学英文版公众号，2026-06-17）
 - [[raw/papers/shan2026-lucaphylo]] — LucaPhylo 无比对系统发育推断：ESM2-650M 蛋白语言模型 + 双曲几何，RNA 病毒超群识别 ARI 0.89/分类准确率 >91%，四阶段级联训练（Shan Y-T, bioRxiv 2026, 阿里云+中山大学）
 - [[raw/articles/中山大学-阿里-LucaPhylo-无序列比对进化树-高分化病毒]] — 宏转录组公众号解读：LucaPhylo 解决高分化病毒序列比对失败问题，无需GPU 32线程 CPU 20分钟处理1000条序列，零序列丢弃（宏转录组微信公众号，2026）
