@@ -1261,3 +1261,16 @@
 - Updated: [[raw/papers/pan2026-lucavirus]] 条目描述（补充正式版关键指标）
 ### 关联
 - 公众号解读 [[raw/articles/NSR-中山大学施莽-LucaVirus大模型-病毒发现功能进化预测]] 保持不动（内容与新正文一致，均为 NSR 版信息）
+
+## [2026-08-21] re-ingest | RFdiffusion Nature 2023 原始论文（Watson JL, Nature 2023）用新版 MinerU 重新解析替换
+### raw/papers
+- Replaced: raw/papers/watson2023-rfdiffusion-nature.md — 旧版（2026-05-13 入库，旧 MinerU 解析，作者行乱码 $\yen、残留 "Check for updates"、<sup> 上标丢失、18 张图）整体替换为 2026-08-21 新版 MinerU 解析（969 行 full.md，作者行完整、134 张图引用）
+- Source: /mnt/d/Ref/2023-Nature-RFdiffusion.pdf (34.7M) — 新 sha256: c881805616f7034577682a0b38b043f379a9973aaf02aec2393ab91c79fddc58
+- 156 images from MinerU extraction copied to raw/papers/images/（SHA-256 哈希命名；旧版 18 张具名图片保留未删）
+- 随附 PDF 副本: raw/papers/watson2023-rfdiffusion-nature.pdf
+- Frontmatter 更新：ingested: 2026-08-21 / extraction_date: 2026-08-21 / sha256 / source_file 指向新 PDF；citation/domain/tags 不变
+- note 补充：WeChat解读 cross-ref（蛋白质从头设计详解 + 爆款论文冷思考）
+### index.md
+- 无改动（条目 [[raw/papers/watson2023-rfdiffusion-nature]] 已存在，描述仍准确，Total pages 不变）
+### entities
+- de-novo-protein-design.md: sources 引用不变（文件名未变）
