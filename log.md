@@ -1249,6 +1249,15 @@
 - Updated page count: 213 → 214
 - Raw sources (machine-learning): +1 ([[raw/papers/yang2026-esm-downstream-survey-quantbiol]])
 
+## [2026-08-21] ingest | EVEscape 病毒免疫逃逸预测（Thadani NN, Nature 2023）入库
+### raw/papers
+- Created: raw/papers/thadani2023-eveescape-nature.md — YAML frontmatter added (citation/sha256/domain: machine-learning/paper_type: original-research)
+- Source: /mnt/d/Ref/2023-Nature-EVEescape.pdf (34.2M, MinerU parsed, doi:10.1038/s41586-023-06617-0)
+- 66 images from MinerU extraction copied to raw/papers/images/
+- Core: EVEscape 框架 = 深度生成序列模型（fitness）+ 抗体表位定位 + 结构/生物物理约束，从大流行前数据预测 SARS-CoV-2/流感/HIV/Lassa/Nipah 逃逸突变；tool: evescape.org
+### index.md
+- Raw sources (machine-learning): +1 ([[raw/papers/thadani2023-eveescape-nature]])
+
 ## [2026-08-17] re-ingest | LucaVirus 论文更换为 NSR 正式版（Pan Y-F, Natl Sci Rev 2026）重新入库
 ### raw/papers
 - Replaced: raw/papers/pan2026-lucavirus.md — 旧版（2026-06-26 入库，preprint/早期版）正文整体替换为 NSR 正式排版版（Received 12 Apr / Revised 21 May / Accepted 31 May 2026）
