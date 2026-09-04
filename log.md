@@ -4,6 +4,36 @@
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
 
+## [2026-09-04] create | Claude Science 五条设计哲学（AI4S Agent 解读）— 入库
+- Created: concepts/claude-science-ai4s-design-philosophy.md (concept 页，五条设计哲学：科学仪器范式/配置实验日志/Artifact-first 血缘DAG/架构反幻觉/渐进式上下文)
+- Updated: index.md (Concepts 区域新增条目，Total pages 223→232)
+- Source: raw/articles/Claude-Science五条设计哲学-AI4S-Agent.md（微信公众号 Anthropic Claude Science 解读）
+- Note: 内容源是公众号对 Anthropic Claude Science 的解读文章，引用数字（72% token/63 数据源/24 MCP server 等）来自该解读，未独立核验 Anthropic 原始材料；解读视角带主观性
+
+## [2026-09-04] create | DynaMate 多智能体 MD 自动化框架 — 入库
+- Created: entities/dynamate.md (实体页：架构/协议/结果/边界/启发)
+- Created: concepts/scientific-agent-anomaly-recovery.md (概念页：从 DynaMate 看科学 Agent 异常恢复)
+- Updated: index.md (Entities + Concepts 区域)
+- Source: raw/articles/DynaMate-AI-Agent蛋白配体MD模拟-ResearchSquare2026.md（Research Square 2026 预印本，EPFL Schwaller 组）
+
+## [2026-09-04] create | GOLLuM LLM+GP 联合训练实验优化器 — 入库
+- Created: entities/gollum.md (实体页：架构/联合训练/23任务结果/边界)
+- Created: concepts/llm-gp-joint-training-uncertainty.md (概念页：用不确定性反塑表示)
+- Updated: index.md
+- Source: raw/articles/GOLLuM-大模型不确定性校准优化-NatureMachineIntelligence2026.md（Nat Mach Intell 2026，Schwaller 组）
+
+## [2026-09-04] create | RNS 蛋白质 embedding 不确定性 — 入库
+- Created: entities/random-neighbor-score.md (实体页：RNS 定义/Astral40/人类蛋白组/边界)
+- Created: concepts/protein-embedding-reliability.md (概念页：从"先预测"到"先验表示")
+- Updated: index.md
+- Source: raw/articles/RNS-蛋白质embedding不确定性-NatureMethods2026.md（Nat Methods 2026，Bromberg 组）
+
+## [2026-09-04] create | ProteinDPO DPO 对齐 ESM-IF1 — 入库
+- Created: entities/proteindpo.md (实体页：方法/Megascale/跨数据集泛化/H5 HA 应用)
+- Created: concepts/protein-model-preference-alignment.md (概念页：从 LLM 偏好对齐到蛋白对齐)
+- Updated: index.md
+- Source: raw/papers/widatalla2026-proteindpo-naturemethods.md (MinerU full.md 883 行，Nature Methods 2026，Hie 团队)
+
 ## [2026-08-27] ingest | Claude Science 五条设计哲学（AI4S Agent 解读）
 - Created: raw/articles/Claude-Science五条设计哲学-AI4S-Agent.md
 - Updated: index.md（新增 ai4s domain 区域，Total pages 222→223，11→12 domains）

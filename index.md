@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-08-27 | Total pages: 223 · 12 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning, ai4s)
-<!-- ↑ Total 223 pages -->
+> Last updated: 2026-09-04 | Total pages: 232 · 12 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning, ai4s)
+<!-- ↑ Total 232 pages (223 + 5 concepts + 4 entities) -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -39,6 +39,10 @@
 ||- [[boat]] — BOAT 抗体多目标贝叶斯优化框架，高斯过程+遗传算法多属性帕累托搜索（AstraZeneca）
 ||- [[sefmoll]] — SeFMol RL+扩散模型半柔性分子生成，口袋内生长范式（Sci Adv 2025）
 ||- [[tarpass]] — TarPass 靶点感知分子生成评测基准，15模型多数不如ChEMBL随机抽样（Adv Sci 2025）
+|||- [[dynamate]] — DynaMate 多智能体蛋白-配体 MD 自动化框架（PrepAgent+MDAgent+AnalyzerAgent），专门做异常恢复，PLINDER 827任务 67% 成功率（+29.4pp），MM/PBSA r=0.597 优于 GNINA 0.385（Masschelein C, Research Square 2026 预印本）
+|||- [[gollum]] — GOLLuM LLM+GP 联合训练实验优化器，T5 编码+GP 不确定性反塑表示，23任务 top-5% 覆盖率 36.3%（vs GP 29.7%），少 41% 实验达到 BO 表现，Buchwald-Hartwig 发现率 24%→43%（Ranković B, Nat Mach Intell 2026）
+|||- [[random-neighbor-score]] — RNS 蛋白质 embedding 样本级不确定性度量，k近邻中随机序列比例，ESM-2 3B 46.2% vs 650M 15.2%，高RNS蛋白长程接触预测精度下降 >60%，"junkyard" 检测（Prabakaran R, Nat Methods 2026）
+|||- [[proteindpo]] — ProteinDPO Nature Methods 2026，DPO 对齐 ESM-IF1 注入 Megascale 66万变体稳定性偏好，Pearson R 0.55→0.73、AUROC 0.74→0.84；双突变超越 ThermoMPNN；H5 HA 45设计~80%稳定、2024株 Tm +32°C 保留中和抗体结合（Widatalla T, Hie BL）
 - [[nfcore-epigenomics-pipelines]] — Nextflow 表观组学流程（ChIP/ATAC/Hi-C），13个流程
 - [[nfcore-genome-pipelines]] — Nextflow 基因组组装与注释流程，27个流程
 - [[nfcore-longread-pipelines]] — Nextflow 三代测序流程（Nanopore/PacBio），17个流程
@@ -86,6 +90,11 @@
 - [[transformer]] — Transformer 自注意力机制：多头注意力、位置编码、Transformer+LSTM 时序融合架构，生信应用（蛋白质语言模型 ESM/基因表达时序/DNA 序列建模）
 - [[umap]] — UMAP 一致流形逼近与投影，非线性降维可视化，kNN 图 + 交叉熵优化，scRNA-seq 标准降维工具（McInnes L, JOSS 2018）
 - [[universal-intranasal-vaccine-gla-3m052]] — GLA-3M-052-LS+OVA 鼻喷广谱疫苗，整合器官免疫范式，TLR4+TLR7/8双激动剂+肺泡巨噬细胞表观遗传重塑，病毒/细菌/过敏原全覆盖（Zhang H, Science 2026）
+- [[claude-science-ai4s-design-philosophy]] — Claude Science 五条设计哲学解读：科学仪器范式/配置实验日志/Artifact-first 血缘DAG/架构反幻觉/渐进式上下文，对 AI4S Agent 工程实践的启示（微信公众号·2026）
+- [[scientific-agent-anomaly-recovery]] — 科学 Agent 的异常恢复能力：从 DynaMate 看 MD 自动化，正常输入差异小/故障输入差距大（GPT-5.5 100% vs Llama 3.3 0%），PLINDER 67% 成功率的边界，Agent 评价应主动构造失败场景（Masschelein C, Research Square 2026）
+- [[llm-gp-joint-training-uncertainty]] — LLM 嵌入 + GP 联合训练：把不确定性从输出端估计变成训练表示的信号，联合训练让搜索空间变平滑，GP 长度尺度-样本距离比与 BO 表现相关 0.92，Buchwald-Hartwig 发现率 24%→43%（Ranković B, Nat Mach Intell 2026）
+- [[protein-embedding-reliability]] — 蛋白质 embedding 可靠性评估：从"先预测"到"先验表示"，RNS 区分 junkyard 与可信表示，3B 模型并非单调更可靠（46.2% vs 650M 15.2%），样本级不确定性路由（Prabakaran R, Nat Methods 2026）
+- [[protein-model-preference-alignment]] — 蛋白生成模型的偏好对齐：从 LLM 偏好对齐到 ProteinDPO，alignment gap 与 SFT 过拟合，DPO 三种目标（paired/ranked/weighted），整序列推理捕捉多突变非线性（Widatalla T, Nat Methods 2026）
 ## Comparisons
 
 ## Code Index
