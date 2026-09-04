@@ -4,6 +4,48 @@
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
 
+## [2026-08-27] ingest | Claude Science 五条设计哲学（AI4S Agent 解读）
+- Created: raw/articles/Claude-Science五条设计哲学-AI4S-Agent.md
+- Updated: index.md（新增 ai4s domain 区域，Total pages 222→223，11→12 domains）
+- Source: 微信公众号 https://mp.weixin.qq.com/s/Z_khSiCLj_SAnU4lJ8itrg，Anthropic Claude Science 设计哲学解读（非技术合伙人+科研训练视角）
+
+## [2026-08-27] ingest | ProteinDPO 原始论文（Nature Methods 2026）PDF + MinerU markdown
+- Created: raw/papers/widatalla2026-proteindpo-naturemethods.md (MinerU full.md, 883 lines)
+- Created: raw/papers/widatalla2026-proteindpo-naturemethods.pdf (源 PDF, sha256: ba5e550d...)
+- Updated: raw/papers/images/ (78 张图片合并入共享目录, 784→862)
+- Updated: index.md (raw/papers ai-drug-discovery 区域)
+- Source: /mnt/d/Ref/2026-NM-ProteinDPO-useESM-IF1.pdf，DOI: 10.1038/s41592-026-03137-3，Hie 团队（Stanford/Arc Institute）
+
+## [2026-08-27] ingest | DynaMate Research Square 2026 AI Agent MD 模拟
+- Created: raw/articles/DynaMate-AI-Agent蛋白配体MD模拟-ResearchSquare2026.md
+- Updated: index.md
+- Source: Bits & Bases 微信公众号，论文 DOI: 10.21203/rs.3.rs-10243410/v1，EPFL/Schwaller 组，多智能体蛋白-配体 MD 自动化框架
+
+## [2026-08-27] ingest | GOLLuM Nature Machine Intelligence 2026 LLM+GP联合优化
+- Created: raw/articles/GOLLuM-大模型不确定性校准优化-NatureMachineIntelligence2026.md
+- Updated: index.md
+- Source: 微信公众号，论文 DOI: 10.1038/s42256-026-01283-z，EPFL/Schwaller 团队，LLM编码+GP预测+边际似然梯度反向更新
+
+## [2026-08-27] ingest | RNS Nature Methods 2026 蛋白质embedding不确定性
+- Created: raw/articles/RNS-蛋白质embedding不确定性-NatureMethods2026.md
+- Updated: index.md
+- Source: Nature Methods·蛋白质语言模型与不确定性微信公众号，论文 DOI: 10.1038/s41592-026-03028-7，PMID: 41922570，Bromberg 团队
+
+## [2026-08-27] ingest | ProteinDPO Nature Methods 2026 微信公众号解读（InfoME/栗享无界）
+- Created: raw/articles/ProteinDPO-NatureMethods-给蛋白质模型做DPO-InfoME.md
+- Updated: index.md
+- Source: InfoME·栗享无界微信公众号，论文DOI: 10.1038/s41592-026-03137-3，含SFT vs DPO详细对比及GitHub链接
+
+## [2026-08-27] ingest | NISE Nature 2026 哈佛团队零样本小分子结合蛋白设计
+- Created: raw/articles/NISE-哈佛团队零样本设计小分子结合蛋白-Nature2026.md
+- Updated: index.md
+- Source: 医数微信公众号，论文 DOI: 10.1038/s41586-026-10670-w，PMID: 42343133
+
+## [2026-08-27] ingest | ProteinDPO Nature Methods 2026 微信公众号解读
+- Created: raw/articles/ProteinDPO-蛋白生成模型直接偏好优化-NatureMethods2026.md
+- Updated: index.md
+- Source: 生医小笔记微信公众号，论文DOI: 10.1038/s41592-026-03137-3
+
 ## [2026-05-04] create | Wiki initialized
 - Domain: 肿瘤早筛 / 多组学 / mNGS / tNGS / 临床微生物检测 / 生信方法
 - Structure: SCHEMA.md, index.md, log.md created

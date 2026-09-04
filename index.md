@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-08-13 | Total pages: 214 · 11 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning)
-<!-- ↑ Total 214 pages -->
+> Last updated: 2026-08-27 | Total pages: 223 · 12 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning, ai4s)
+<!-- ↑ Total 223 pages -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -55,6 +55,7 @@
 - [[scmethcraft]] — scMethCraft 单细胞 DNA 甲基化统一分析框架，混合神经网络+KAN 序列特征融合，降维/聚类/批次整合/增强/DMR 全流程（Nat Commun 2026 南开陈盛泉）
 |- [[regformer]] — RegFormer 单细胞 Mamba 基础模型，基因调控拓扑排序 + 双重嵌入 + 药物敏感性预测（Nat Commun 2026 BGI）
 |- [[seqdance-esmdance]] — SeqDance/ESMDance 基于 MD 动力学生物物理特征的蛋白质语言模型，Transformer 编码残基共运动/全局构象，ESMDance 零样本预测设计蛋白/病毒蛋白突变效应大幅超越 ESM2（PNAS 2026 Hou C）
+- [[vesm]] — VESM Nature Methods 2026：ESM 家族 co-distillation 压缩集体知识，ClinVar AUC 0.938 SOTA，UK Biobank 连续表型关联
 ||- [[wisecondorx]] — 浅层全基因组CNV检测，WISECONDOR归一化改进，NIPT/肿瘤/生信流程
 |- [[ws-hla-genotyping-standard]] — HLA 基因分型检测体系技术标准，SSP/SSO/SBT 三种方法、QC体系、环境与人员要求
 ## Concepts
@@ -133,6 +134,7 @@
 |- [[raw/articles/SeqDance-ESMDance-蛋白质动力学语言模型-PNAS2026-biomath]] — SeqDance/ESMDance pLM 基于 MD 动力学预训练预测突变效应，Transformer 编码残基共运动/全局构象，ESMDance 零样本预测设计蛋白 Spearman r 0.46 vs ESM2 0.21（PNAS 2026 Hou C, biomath微信公众号）
 |- [[raw/articles/DrugCLIP-MCLM-对比学习-AIDD-arXiv2026]] — CLIPP-SET/MCLM 对比 3D 蛋白-配体学习 + 条件分子生成，SET SE(3)等变transformer/CF-InfoNCE/dataset token，scaffold hopping检索优于Morgan FP（arXiv 2026 Acellera/UPF，陷入鞍点）
 |- [[raw/papers/hou2026-seqdance-esmdance-pnas]] — SeqDance/ESMDance 基于 MD 动力学预训练的 pLM 原始论文：Transformer 编码残基共运动/全局构象，零样本预测设计蛋白/病毒蛋白突变效应（Hou C, PNAS 2026）
+|- [[raw/papers/widatalla2026-proteindpo-naturemethods]] — ProteinDPO 原始论文（Nature Methods 2026）：DPO 对齐 ESM-IF1 注入实验稳定性偏好，Megascale 66万变体；Pearson R 0.55→0.73、AUROC 0.74→0.84，双突变超越 ThermoMPNN；H5 HA 45设计~80%稳定、2024株 Tm +32°C 保留中和抗体结合（Widatalla T, Hie BL, Nature Methods 2026）
 ||- [[raw/articles/ORI-腾讯AI4S蛋白设计闭环-NatureComm2026]] — ORI 腾讯 AI4S 本体强化迭代蛋白设计闭环，PDA + PGM + USM + RLWF，溶菌酶/几丁质酶/双功能酶实验验证，TX-RL15 活性超天然溶菌酶两个数量级（He B, Nat Commun 2026，微信公众号·AI药物设计实验室）
 ||- [[raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场]] — 刘如谦组 Nat Biotechnol 2026：定向进化越改越脆、AI蛋白设计（ProteinMPNN）救场，PE8系列 2.0-2.3x 表达 +8°C Tm，体内编辑44% vs PE7 25%，"进化打底、AI加固"互补范式（BioTender观测日志）
 ||- [[raw/papers/krasnow2026-ai-redesigned-protein-evolution-nature]] — AI重设计起点与结局增强蛋白质进化（Nature 2026）：ProteinMPNN 重设计 BoNT/E/F/X 蛋白酶为进化起点，44 个独立 PACE 通道系统对比，AI 重设计起点一贯优于野生型；E(4130)A2 嫁接表达 +2.2-5.2x、ataxin-2 选择性 >79x 且 SNAP25 绝对零切割（Krasnow NA, Nature 2026, 哈佛/Broad 刘如谦组，Open access）
@@ -140,7 +142,12 @@
 ||- [[raw/articles/ESM-World-Model-Biohub-Zuckerberg-智药局]] — Biohub（CZI/扎克伯格）开源全球首个蛋白质世界模型，ESMC+ESMFold2+ESM Atlas三组件，68亿蛋白图谱，5靶点36-88%命中率，开源免费（智药局微信公众号，2026）
 ||- [[raw/articles/Nature Communications 2026｜AlphaFold 能算出完整互作组吗？这篇实验评估给出答案]] — AI 互作组映射系统实验评估：AF/RF 高置信但新 PPI 发现远落后于实验方法，CCC 指标，实验+AI 互补工作流（Lambourne L, Nat Commun 2026）
 ||- [[raw/articles/MIT全能蛋白 Binder 模型——Promera！接管设计、折叠、筛选全流程！！]] — Promera 蛋白 Binder 折叠·筛选·设计统一模型，ipSAE 筛选 AUROC 0.70，4靶点设计超 BoltzGen、追平 mBER，bioRxiv 2026（BioTender观测日志）
-||- [[raw/articles/AI造出了更好的分子却没造出更好的药-黑箱与真值]] — AIDD深度分析：Phase I 80-90% vs Phase II 40%（与传统37%无显著差异）、170+临床AI分子0获批；生成式AI（模式插值）vs 推理AI（因果推理）二分、因果之梯三层次；L1-L5串联系统级联误差，99%分子精度下整体成功率仍仅~6%；FDA ISTAND首个in silico DDT/现代化法案2.0/GAIP监管信号；Human Ground Truth数据壁垒（Perturb-Seq/器官芯片多组学）；Recursion-Exscientia合并数据战略；DaaS CRO新物种（微信公众号·黑箱与真值，2026）
+- [[raw/articles/NISE-哈佛团队零样本设计小分子结合蛋白-Nature2026]] — NISE Nature 2026：哈佛 Polizzi 组双网络闭环迭代零样本设计小分子结合蛋白，LASERMPNN+RFAA/Boltz-2交替优化，EPIC 120nM→神经校对 1.2nM，APEX 80pM 近万倍超越（微信公众号·医数）
+- [[raw/articles/RNS-蛋白质embedding不确定性-NatureMethods2026]] — RNS Nature Methods 2026：Bromberg 团队提出 Random Neighbor Score 检测 embedding 潜空间"垃圾场"，ESM-2 3B 在人类蛋白上 46.2% 出现随机邻居 vs 650M 仅 15.2%，高 RNS 长程接触预测精度下降 >60%（微信公众号·Nature Methods·蛋白质语言模型与不确定性）
+- [[raw/articles/ProteinDPO-NatureMethods-给蛋白质模型做DPO-InfoME]] — ProteinDPO Nature Methods 2026 解读（InfoME/栗享无界）：DPO vs SFT 对比、三种DPO变体详解、H5 HA跨20年Tm提升32°C、"预训练给通用性DPO给特异性"观点（微信公众号·InfoME·栗享无界）
+|- [[raw/articles/ProteinDPO-蛋白生成模型直接偏好优化-NatureMethods2026]] — ProteinDPO Nature Methods 2026 解读（生医小笔记）：Megascale 184万偏好对+图1-5结构化解读+H5 HA稳定化（微信公众号·生医小笔记）
+- [[raw/articles/DynaMate-AI-Agent蛋白配体MD模拟-ResearchSquare2026]] — DynaMate Research Square 2026：EPFL Schwaller 组多智能体 MD 自动化框架，PrepAgent+MDAgent+AnalyzerAgent，15体系×5模型×5重复=375次运行，PLINDER 827任务 67%成功率，MM/PBSA r=0.597 vs GNINA r=0.385（微信公众号·Bits & Bases）
+|- [[raw/articles/AI造出了更好的分子却没造出更好的药-黑箱与真值]] — AIDD深度分析：Phase I 80-90% vs Phase II 40%（与传统37%无显著差异）、170+临床AI分子0获批；生成式AI（模式插值）vs 推理AI（因果推理）二分、因果之梯三层次；L1-L5串联系统级联误差，99%分子精度下整体成功率仍仅~6%；FDA ISTAND首个in silico DDT/现代化法案2.0/GAIP监管信号；Human Ground Truth数据壁垒（Perturb-Seq/器官芯片多组学）；Recursion-Exscientia合并数据战略；DaaS CRO新物种（微信公众号·黑箱与真值，2026）
 ||- [[raw/articles/晶泰科技-XtalPiScience-GeniusAgents-科学智能开放生态联盟]] — XtalPi Science 全球首个LLM+科学智能体+自动化机器人实验AI4S综合平台：Science Token统一资源调用/贡献计量、Genius Agents多智能体调度、"数字假设-专业预测-物理验证-数据反馈"闭环；SureRoute化学幻觉率4.6%（前沿LLM的1/6）/首条路线51.7%，SureRXN失败预测81-89% vs 资深化学家38-60%、试错5-10次压缩至1.19次；50万+真实实验记录含80%失败负样本；泰衍50,764组实验/耀速肝器官芯片92.3%/无界进化OCOO-T SOTA/超衍34项自主研究；27家科学智能开放生态联盟、近200家申请试用（晶泰科技公众号，2026/07）
 ||
 ### bioinfo-pipeline
@@ -220,7 +227,12 @@
 |- [[raw/articles/AI4S-四种生意三种赚法一条铁律-钛资本]] — AI4S赛道框架：感知行合四种生意，License-out/SaaS/IDM三种赚法，DBTL飞轮，商业化甜蜜点预测（钛资本研究院·蒋云川，2026）
 |- [[raw/articles/奥明星程-AI4S-超亿元A轮-多组学多模态]] — 奥明星程超亿元A轮，哈佛博士团队，AI+多组学多模态，乳腺癌早筛 OS-TuFEst-BRCA 灵敏度92-95%（动脉网微信公众号，2026）
 |- [[raw/articles/复鞍智能-AI4S物质科学-复旦科创种子轮]] — 复鞍智能种子轮，复旦刘智攀团队，AI4S催化材料分子反应研发（建研院微信公众号，2026）
+### ai4s
+- [[raw/articles/Claude-Science五条设计哲学-AI4S-Agent]] — Claude Science 五条设计哲学解读（AI4S Agent 视角）：校准/理解而非命令/边界、配置调优实验日志（thinking占72%token但召回率无提升的6-rep实测）、Artifact-first 可引用可溯源（VERSION_ID+血缘DAG）、架构反幻觉（63权威数据源→24 MCP server、Compute don't confabulate、inline assert）、渐进式上下文（Metadata 100词常驻/正文<500行触发加载/资源按需读取，常驻2900词）（微信公众号，2026）
 ### machine-learning
+||- [[raw/articles/GOLLuM-大模型不确定性校准优化-NatureMachineIntelligence2026]] — GOLLuM Nature Machine Intelligence 2026：EPFL Schwaller 组 LLM（T5）编码文本实验条件+GP预测+边际似然梯度联合训练，23任务top-5%覆盖率36.3%，Buchwald-Hartwig发现率24%→43%（GitHub: schwallergroup/gollum）
+||- [[raw/articles/NatureMethods-VESM-ESM家族互相教学-变异效应预测]] — VESM Nature Methods 2026：多 ESM 模型 co-distillation，逐变异最小 LLR 聚合→知识压缩回单模型，ClinVar AUC 0.938（Bio暗物质雷达，2026）
+||- [[raw/articles/Nature-Methods-IF-28-3-谁说单序列-PLM-到头了-VESM-让-ESM-家族互相教学-性能大幅跃升]] — VESM Nature Methods 2026 解读：ESM 家族互补盲区×co-distillation 变异效应预测
 - [[raw/papers/rao2021-msa-transformer-icml]] — MSA Transformer：轴向注意力+tied row attention 处理 MSA 的蛋白质语言模型，100M 参数/26M MSAs 预训练，无监督接触预测 top-L 长程精度 57.4 大幅超越 ESM-1b 与 Potts，8-16 条序列即可高精度预测（Rao R, ICML 2021, Facebook AI Research）
 - [[raw/papers/lin2023-esm2-esmfold-science]] — ESM-2/ESMFold：蛋白质语言模型 scaling 至 15B 参数涌现原子级结构，单序列端到端结构预测 CAMEO TM 0.83，ESM Metagenomic Atlas 折叠 >6.17 亿宏基因组蛋白（Lin Z, Science 2023）
 - [[raw/papers/yang2026-esm-downstream-survey-quantbiol]] — ESM 下游应用综述：约100篇引用ESM六篇原始论文的高影响力工作，技术路线（预训练/微调/prompting）× 应用领域（结构预测/功能注释/蛋白设计/突变效应）双维度分类（Yang Q, Quant Biol 2026, 上海科技大学）
