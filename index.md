@@ -1,8 +1,8 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-09-04 | Total pages: 232 · 12 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning, ai4s)
-<!-- ↑ Total 232 pages (223 + 5 concepts + 4 entities) -->
+> Last updated: 2026-09-17 | Total pages: 245 · 12 domains (panel-design, quantitative-mngs, tngs-comparison, ai-drug-discovery, bioinfo-pipeline, clinical-evaluation, cancer-biology, vaccine-design, market-watch, machine-learning, ai4s)
+<!-- ↑ Total 245 pages (243 + 1 entity + 1 raw article; 2026-09-17 AnewDDE) -->
 
 ## Entities
 - [[cgp-probe-design-consensus-2026]] — 肿瘤CGP探针设计专家共识2026版，6大共识涵盖基因分级/探针设计/变更管理
@@ -18,6 +18,7 @@
 - [[methylvi]] — MethylVI 单细胞甲基化VAE概率生成模型，Beta-Binomial似然，scvi-tools集成（Ashuach T, Nat Mach Intell 2025）
 - [[de-novo-protein-design]] — David Baker Nature 2026 综述：从头蛋白质设计的过去现在与未来，折叠/组装/结合已基本解决，前沿为动态纳米机器
 - [[isodde]] — IsoDDE Isomorphic Labs Drug Design Engine，全面超越AF3的蛋白-小分子/抗体-抗原/亲和力统一预测系统
+- [[anewdde]] — AnewDDE Anew Labs 闭环智能体药物研发引擎（AnewFold 结构 + AnewAffinity 亲和力 + AnewDesign 设计 + AnewMind 推理决策）：抗体-抗原 top-1 成功率 76.2%（FoldBench-AbAg）vs AF3 48.8%/Boltz-1 34.4%/IsoDDE 75.6%，口袋识别 AUPRC 0.751（隐式口袋 0.663）；亲和力 1.5 s/配体对、R² 0.553（vs Boltz-2 20 s、0.486；AnewFEP 约 33000 s）；湿实验 Lab-in-the-Loop 150 克隆 16 个个位数 nM（成功率 10.7%，最好 KD 1.8 nM）；AnewMind 千亿参数 + 自建 PharmBench 54.65% 排第三；四个模型全部闭源（Anew Labs, 技术报告 2026-09-16, 字节分拆，置信 medium）
 - [[mmseqs2]] — MMseqs2-GPU GPU加速同源搜索算法，比JackHMMER快177x，ColabFold加速31.8x，Foldseek加速4-27x（Nat Methods 2025, Mirdita M）
 - [[ovo]] — Ovo 开源从头蛋白设计生态系统：Nextflow 工作流编排 + ProteinQC 质量评估 + Web GUI/CLI，scaffold/binder/diversification 三范式（MSD + AWS, bioRxiv 2025）
 - [[ori-protein-design]] — ORI 腾讯AI4S 本体强化迭代蛋白设计闭环（PDA + PGM + USM + RLWF），溶菌酶/热稳定几丁质酶/双功能酶实验验证，TX-RL15 活性超天然溶菌酶两个数量级（He B, Nat Commun 2026）
@@ -116,8 +117,10 @@
 - [[raw/papers/isomorphic2026-isodde]] — IsoDDE Isomorphic Labs Drug Design Engine 技术报告：全面超越AF3的蛋白-小分子/抗体-抗原/亲和力预测 (Isomorphic Labs, 2026)
 - [[raw/papers/liu2026-protdbench-arxiv]] — ProtDBench arXiv 2026 原始论文：蛋白binder设计统一评测基准，verifier偏差+throughput-aware+多样性分析 (Liu C, arXiv 2026)
 - [[raw/papers/devkota2026-raygun-nature]] — Raygun 模板化蛋白质设计（Nature 2026）：autoencoder 编码固定 64,000 维多元正态分布（K=50 blocks×1280），任意长度蛋白直接可比；noise/length 两参数控制替换+插入缺失；单次生成 0.3s 快~100倍；荧光蛋白小型化 6/8 荧光、TurboID 活性保持、EGF 扩展增强 EGFR 亲和力；mTOR 缩减 25% TM≈0.7；UniRef50 80K 蛋白训练 701M 参数（Devkota K, Nature 2026, 杜克大学，Open access）
+- [[raw/papers/pei2026-biomatrix-arxiv]] — BioMatrix arXiv 2026 原始论文：首个单一 Qwen3 解码器骨干以统一离散 token 空间原生集成序列/结构/语言的多模态生物基础模型（1.7B/4B），无需外部编码器/投影适配器/模态特定输出头；分子侧改进 MolStrucTok（512 项局部球坐标码本 + SELFIES 原子对齐 → 11,294 高频联合 token），蛋白侧 GCP-VQVAE（4096 项残基级码本，序列/结构 token 分离避免 ~71,737 稀疏组合）；持续预训练 304.4B token（文本 105.3B/蛋白 77.4B/分子 73.7B/跨实体 48.0B）+ 24.85M 指令 SFT；80 项任务 77 项 SOTA/具竞争力：SMolInstruct 文本生成分子 EM 65.07%/有效率 99.52%，QM9-2014 ε<sub>HOMO</sub>/ε<sub>LUMO</sub>/Δε MAE 较 NExT-Mol 缩小 3-4×（205/235/297→53/54/81 meV），逆折叠氨基酸恢复率 75.50%（vs DPLM-2-3B 61.67%），折叠 TM-score 0.84（仍低于 ESMFold 0.93），结构生成序列 scTM 0.979/scRMSD 1.497 Å，PDBBindv2020 亲和力 RMSE 1.260/Pearson 0.737/MAE 0.972 三项最佳；边界：单 SFT 权重难稳定覆盖全部任务（→ 多个 V* variant）、离散码本带来几何量化误差、配体-口袋独立码本无法原生表达相对位姿（不可直接对接/口袋条件配体设计）；通讯：Rui Yan (rui.yan@whu.edu.cn)、Lijun Wu (wulijun@pjlab.org.cn)，代码 github.com/QizhiPei/biomatrix，HF QizhiPei/BioMatrix-4B-SFT（Pei Q, Zhou Z, Duan Y 等 12 人，arXiv 2606.22138，2026-06-20 提交）
 - [[raw/articles/RegFormer-单细胞大模型Mamba架构-NatCommun2026]] — RegFormer 单细胞 Mamba 基础模型，基因调控拓扑排序 + 双重嵌入 + 药物敏感性预测（微信公众号·生物信息与人工智能，2026/05）
 - [[raw/articles/David-Baker-Nature综述-蛋白质从头设计的过去现在与未来]] — David Baker Nature 2026 综述：从头蛋白设计从物理模型到生成式AI，折叠/组装/结合已基本解决（微信公众号·BrainMed Lab）
+- [[raw/articles/chen2026-rhobin-cell-AI-ProteinDesign]] — Rhobin Cell 2026：从头设计泛罗丹明结合蛋白 RFdiffusion+LigandMPNN，9 中 8 成功，Rhobin9 对 JF660 KD=91 nM，哺乳动物细胞归一化亮度 229 倍背景，STED <100 nm，3.5min/10000帧单分子示踪，嗜酸热硫化叶菌（75°C/pH 2）体内成像（Chen Y, Huang B, Cell 2026, 微信公众号·AI-Protein Design）
 - [[raw/articles/RFdiffusion-蛋白质从头设计-Nature论文详解]] — RFdiffusion Nature 2023 论文详解：扩散模型微调RoseTTAFold生成蛋白骨架，单体/对称寡聚体/结合物/基序支架（微信公众号·AI-Protein Design）
 - [[raw/articles/RFdiffusion1-架构原理训练上手指南-AIinBio]] — RFdiffusion 精读系列（一）：架构原理、训练过程和上手指南，源码结构/SE3扩散/条件化生成（微信公众号·AI in Bio）
 - [[raw/articles/RFdiffusion-SE3扩散框架详解-Nature2023-Bits&Bases]] — RFdiffusion SE(3) 扩散框架详解：RoseTTAFold→扩散模型微调、框架表示/自条件化/去噪轨迹（微信公众号·Bits & Bases）
@@ -144,6 +147,7 @@
 |- [[raw/articles/DrugCLIP-MCLM-对比学习-AIDD-arXiv2026]] — CLIPP-SET/MCLM 对比 3D 蛋白-配体学习 + 条件分子生成，SET SE(3)等变transformer/CF-InfoNCE/dataset token，scaffold hopping检索优于Morgan FP（arXiv 2026 Acellera/UPF，陷入鞍点）
 |- [[raw/papers/hou2026-seqdance-esmdance-pnas]] — SeqDance/ESMDance 基于 MD 动力学预训练的 pLM 原始论文：Transformer 编码残基共运动/全局构象，零样本预测设计蛋白/病毒蛋白突变效应（Hou C, PNAS 2026）
 |- [[raw/papers/widatalla2026-proteindpo-naturemethods]] — ProteinDPO 原始论文（Nature Methods 2026）：DPO 对齐 ESM-IF1 注入实验稳定性偏好，Megascale 66万变体；Pearson R 0.55→0.73、AUROC 0.74→0.84，双突变超越 ThermoMPNN；H5 HA 45设计~80%稳定、2024株 Tm +32°C 保留中和抗体结合（Widatalla T, Hie BL, Nature Methods 2026）
+|- [[raw/papers/zhang2026-rfooptimization-biorxiv]] — RFOptimization 原始论文（bioRxiv 2026, Baker 组）：免训练全原子结合物优化，stop-gradient 绕过扩散模块 + Pairformer 的 distogram/confidence head 可微目标 + 离散 one-hot 的梯度引导 MCMC（几何温度退火），与 Boltz/MPNN 结构循环各 50% 交替，AF3 全程留出作独立评估；三类可定制目标（置信度/distogram 代理/原子级几何约束）；PPI 6.73%→22.31%、环肽 1.25%→12.57%、配体结合 5.62%→24.91%、24 AME 靶标 18/24 改善；三模型共识 iPTM>0.8 12.08% vs 仅循环 7.50%/仅梯度 6.67%/Protein Hunter 7.50%；26 min vs 178 min vs 34 h（单 A100）；全 in silico 无湿实验（Zhang O, Wang J, Thompson TR, You Z, Song Z, DiMaio F, Baker D, bioRxiv 2026, DOI 10.64898/2026.09.04.749184）
 ||- [[raw/articles/ORI-腾讯AI4S蛋白设计闭环-NatureComm2026]] — ORI 腾讯 AI4S 本体强化迭代蛋白设计闭环，PDA + PGM + USM + RLWF，溶菌酶/几丁质酶/双功能酶实验验证，TX-RL15 活性超天然溶菌酶两个数量级（He B, Nat Commun 2026，微信公众号·AI药物设计实验室）
 ||- [[raw/articles/NatBiotech-定向进化越改越脆-AI蛋白设计救场]] — 刘如谦组 Nat Biotechnol 2026：定向进化越改越脆、AI蛋白设计（ProteinMPNN）救场，PE8系列 2.0-2.3x 表达 +8°C Tm，体内编辑44% vs PE7 25%，"进化打底、AI加固"互补范式（BioTender观测日志）
 ||- [[raw/papers/krasnow2026-ai-redesigned-protein-evolution-nature]] — AI重设计起点与结局增强蛋白质进化（Nature 2026）：ProteinMPNN 重设计 BoNT/E/F/X 蛋白酶为进化起点，44 个独立 PACE 通道系统对比，AI 重设计起点一贯优于野生型；E(4130)A2 嫁接表达 +2.2-5.2x、ataxin-2 选择性 >79x 且 SNAP25 绝对零切割（Krasnow NA, Nature 2026, 哈佛/Broad 刘如谦组，Open access）
@@ -156,11 +160,17 @@
 - [[raw/articles/ProteinDPO-NatureMethods-给蛋白质模型做DPO-InfoME]] — ProteinDPO Nature Methods 2026 解读（InfoME/栗享无界）：DPO vs SFT 对比、三种DPO变体详解、H5 HA跨20年Tm提升32°C、"预训练给通用性DPO给特异性"观点（微信公众号·InfoME·栗享无界）
 |- [[raw/articles/ProteinDPO-蛋白生成模型直接偏好优化-NatureMethods2026]] — ProteinDPO Nature Methods 2026 解读（生医小笔记）：Megascale 184万偏好对+图1-5结构化解读+H5 HA稳定化（微信公众号·生医小笔记）
 - [[raw/articles/DynaMate-AI-Agent蛋白配体MD模拟-ResearchSquare2026]] — DynaMate Research Square 2026：EPFL Schwaller 组多智能体 MD 自动化框架，PrepAgent+MDAgent+AnalyzerAgent，15体系×5模型×5重复=375次运行，PLINDER 827任务 67%成功率，MM/PBSA r=0.597 vs GNINA r=0.385（微信公众号·Bits & Bases）
+- [[raw/articles/RFOptimization-结构预测模型做蛋白质优化器-Baker-bioRxiv2026]] — Baker 组 RFOptimization bioRxiv 2026：把 AF3 类结构预测模型倒过来当优化器（stop-gradient 掐断扩散反向通路 + distogram/置信度头梯度 + MCMC 离散采样），Boltz+ProteinMPNN/LigandMPNN 结构循环互相纠偏、AF3 终审；蛋白-蛋白结合剂 AF3 重折叠通过率 6.73%→22.31%（3.3倍）、环肽 1.25%→12.57%（10.1倍）、小分子 5.62%→24.91%（4.4倍）、24个AME靶点18个fitness改善；三模型共识 12.08% vs Protein Hunter 7.50%，26 GPU分钟/设计（约80倍算力节省）；全部为计算通过率、无湿实验验证（公众号·BioTender，2026-09-09）
+- [[raw/articles/RFOptimization-Baker设计优化工具-AI-ProteinDesign-bioRxiv2026]] — RFOptimization 解读之二（公众号·AI-Protein Design）：含完整原文翻译与逐靶点数据——13 PPI 靶点 6.73%→22.31%（PDGFR 17.5%→50.0%、PDL1 10%→40.75%、FGFR2 0%→28.0%、PD1 0%→27.5%、VirB8 0%→27.25%）、环肽 1.25%→12.57%（GABARAP 0%→24.12%）、小分子 5.62%→24.91%（SAM 29.62%/IAI 26.25%/OQO 22.75%/FAD 21.0%）、24 AME 靶点复合适应度、三模型共识 iPTM>0.8 12.08% vs 仅循环 7.50%/仅梯度 6.67%/Protein Hunter 7.50%、26 GPU分钟 vs 178分钟 vs 2030分钟
 |- [[raw/articles/AI造出了更好的分子却没造出更好的药-黑箱与真值]] — AIDD深度分析：Phase I 80-90% vs Phase II 40%（与传统37%无显著差异）、170+临床AI分子0获批；生成式AI（模式插值）vs 推理AI（因果推理）二分、因果之梯三层次；L1-L5串联系统级联误差，99%分子精度下整体成功率仍仅~6%；FDA ISTAND首个in silico DDT/现代化法案2.0/GAIP监管信号；Human Ground Truth数据壁垒（Perturb-Seq/器官芯片多组学）；Recursion-Exscientia合并数据战略；DaaS CRO新物种（微信公众号·黑箱与真值，2026）
 ||- [[raw/articles/晶泰科技-XtalPiScience-GeniusAgents-科学智能开放生态联盟]] — XtalPi Science 全球首个LLM+科学智能体+自动化机器人实验AI4S综合平台：Science Token统一资源调用/贡献计量、Genius Agents多智能体调度、"数字假设-专业预测-物理验证-数据反馈"闭环；SureRoute化学幻觉率4.6%（前沿LLM的1/6）/首条路线51.7%，SureRXN失败预测81-89% vs 资深化学家38-60%、试错5-10次压缩至1.19次；50万+真实实验记录含80%失败负样本；泰衍50,764组实验/耀速肝器官芯片92.3%/无界进化OCOO-T SOTA/超衍34项自主研究；27家科学智能开放生态联盟、近200家申请试用（晶泰科技公众号，2026/07）
+||- [[raw/articles/pei2026-biomatrix-arXiv-AIDrugLab]] — BioMatrix arXiv 2026 多模态生物基础模型：Qwen3 解码器统一文本/分子/蛋白序列与结构于同一离散 token 空间（MolStrucTok+GCP-VQVAE），3044 亿 token 预训练+2485 万指令 SFT，80 项任务 77 项 SOTA/具竞争力；SMolInstruct 文本生成分子精确匹配 65.07%（vs 48.00%）/有效率 99.52%，QM9-2014 HOMO/LUMO/能隙 MAE 较 NExT-Mol 缩小 3-4 倍（205/235/297→53/54/81 meV），逆折叠氨基酸恢复率 75.50%（vs DPLM-2-3B 61.67%），折叠 TM-score 0.84（仍低于 ESMFold 0.93），PDBBindv2020 亲和力 RMSE 1.260/Pearson 0.737/MAE 0.972 三项最佳；代码 QizhiPei/BioMatrix（Pei Q/Zhou Z/Duan Y 等，arXiv 2606.22138，微信公众号·AI药物设计实验室）
+- [[raw/articles/AnewDDE-AnewLabs-闭环智能体-AI制药-BioTender]] — 字节分拆 AI 制药公司 Anew Labs 发布 AnewDDE 闭环智能体技术报告（52 页，2026-09-16）：AnewFold 抗体-抗原 top-1 76.2%（FoldBench-AbAg 相似度过滤新基准）vs AF3 48.8%/Boltz-1 34.4%/IsoDDE 75.6%，蛋白-配体共折叠 77.4%、分子胶三元复合物 71.8%、口袋识别 AUPRC 0.751（隐式口袋 0.663）；AnewAffinity 1.5 s/配体对、Pearson R² 0.553/Spearman 0.724（vs Boltz-2 20 s、0.486/0.620；AnewFEP 约 33000 s）；AnewDesign 湿实验闭环 3092 初筛→287 簇→50 条测 SPR→7 个 KD<400 nM→实测回喂再做 in silico 亲和力成熟出 100 克隆，两轮 150 克隆 16 个个位数 nM（成功率 10.7%，最好 KD 1.8 nM，最高提升 100 倍）；AnewMind 千亿参数科学推理 LLM + 自建 PharmBench（50 场景/200 题）总分 54.65% 排第三（落后 GPT-5.6-sol 与 Kimi K3，差 0.23 pp），分子设计与合成维度第一、ADMET 四项前五、MMLU-Pro 80.8%/GPQA-D 88.4%；同日 Reuters 报道 2.9 亿美元首轮（投后估值约 15 亿美元，字节保留 56%）；边界：PharmBench 不可复现、单匿名靶点、四模型全闭源、报告未公开下载（BioTender，2026-09-16）
+- [[raw/articles/BioMatrix-统一生物表征语言-生物信风港解读2026]] — BioMatrix 解读之二（公众号·生物信风港）批判性视角：小分子 SELFIES 锚点 + 512 条目球坐标码本、拆分单一解码头使各物理量独立回归（QM9-2014 每分量 RMSD 较原 tokenizer 低约 0.1 Å）；蛋白 GCP-VQVAE 只编码主链（码本 4096），牺牲细粒度原子几何换紧凑可泛化；三条边界：两套独立 tokenizer/几何参考系无法表达配体-口袋相对姿态（不能做复合物生成/对接/口袋条件设计）、未做实体级去重过滤（训练-评测重叠风险）、SFT 非全任务统一模型（按任务组变体，合并版小数据任务落后）；SMolInstruct EM 65.07% vs SciReasoner-8B 48.00%、MoleculeQA 73.78% vs 64.79%（生物信风港，2026-09-10）
 ||
 ### bioinfo-pipeline
 - [[raw/papers/yang2026-featuremap-natcompsci]] — FeatureMAP 特征保持流形逼近与投影，基于局部 PCA 切空间嵌入保留基因信息，GEX/GVA 双嵌入策略（Yang Y, Nat Comput Sci 2026）
+- [[raw/papers/zhong2026-pepe-bioinformatics]] — PEPE 原始论文（Bioinformatics 2026）：并行流式架构 + 多模态单次提取（Streaming Output + Multi-Mode Extraction），峰值内存不随输出量增长（50k 序列 per-token 输出 396 GB 仍稳定，PLMFit 10k 即 OOM），吞吐提升 3.6-18.7 倍；序列分块重建支持任意长度；per-token/mean-pooled/substring-pooling + 注意力矩阵（Zhong J, Cardente N, Sandve GK, Bashour H, Abbate MF, Greiff V, Bioinformatics 2026;42(6):btag375）
 - [[raw/articles/绘制Cell杂志同款umap图_python版]] — 生信技能树 Python 复现 Cell 杂志 UMAP 图教程：scanpy 读数据→PCA→UMAP→亚细胞区室着色（生信技能树微信公众号，2026）
 - [[raw/articles/scMethCraft-单细胞DNA甲基化统一分析框架-NatCommun2026]] — scMethCraft 单细胞 DNA 甲基化统一分析框架，混合神经网络+KAN 序列特征融合+迭代相似性加权，NA 原生处理，降维/聚类/批次整合/增强/DMR 全流程（Nat Commun 2026，微信公众号·生信钱同学）
 - [[raw/articles/5分生信文章工作量标杆-IPF多组学机器学习]] — IPF多组学+机器学习，14张图发5分的工作量拆解（微信公众号·纯肥瘦肉夹馍）
@@ -197,6 +207,7 @@
 
 - [[raw/articles/宏基因组-Kraken-RTL路径打分算法解析]] — Kraken RTL (Root To Leaf) 路径打分算法详解：k-mer投票→节点赋权→路径累加→最终分类，与简单投票法对比，整合不同精度层级的证据（微信公众号·MetagenomeBioin，Ethan Ethan，2026）
 - [[raw/articles/一篇文章看懂-生殖系变异vs体细胞突变]] — 生殖系变异 vs 体细胞突变全面对比：定义/来源/遗传模式/检测方法/临床意义，面向生信入门（微信公众号·BIMer科研充电站）
+- [[raw/articles/PEPE-蛋白嵌入多模态并行提取-Bioinformatics2026]] — 奥斯陆大学 PEPE（蛋白嵌入并行提取工具）Bioinformatics 2026：并行流式架构 + 多模态单次计算导出所有模态，解决"输出全载内存再写盘"与"多模态重复计算"两大瓶颈；峰值内存不随输出量线性增长（超物理内存上限仍可完成），吞吐量较串行提升数个数量级；对比 PLMFit/AMULETY/Bio-embeddings，兼容主流与自研 PLM；GitHub csi-greifflab/pepe-cli（MIT）、PyPI pepe-cli、Zenodo 15912054（微信公众号·Omics Pro，2026-09-09）
 
 ### clinical-evaluation
 - [[raw/papers/gbt46943-2025-mngs-validation]] — GB/T 46943-2025 mNGS性能确认国家标准，涵盖标本制备/LoD/精密度/准确度/生信流程（国家标准，2025）
@@ -238,12 +249,16 @@
 |- [[raw/articles/复鞍智能-AI4S物质科学-复旦科创种子轮]] — 复鞍智能种子轮，复旦刘智攀团队，AI4S催化材料分子反应研发（建研院微信公众号，2026）
 ### ai4s
 - [[raw/articles/Claude-Science五条设计哲学-AI4S-Agent]] — Claude Science 五条设计哲学解读（AI4S Agent 视角）：校准/理解而非命令/边界、配置调优实验日志（thinking占72%token但召回率无提升的6-rep实测）、Artifact-first 可引用可溯源（VERSION_ID+血缘DAG）、架构反幻觉（63权威数据源→24 MCP server、Compute don't confabulate、inline assert）、渐进式上下文（Metadata 100词常驻/正文<500行触发加载/资源按需读取，常驻2900词）（微信公众号，2026）
+- [[raw/articles/Co-Scientist-Google多智能体科学假说-Nature2026]] — Google DeepMind Co-Scientist Nature 2026：Gemini 多智能体"生成-辩论-进化"架构提出可实验验证科学假说，AML药物重定位体外临床可达浓度有效、协同联用预测获验证、肝纤维化新表观遗传靶点（含FDA已批药）、微生物学独立重现未发表机制；扩展测试时算力而非模型规模、与底层模型无关（生信放映室微信公众号，2026-09-04）
+- [[raw/articles/Biomni-斯坦福通用生物医学智能体-生信放映室]] — 斯坦福 Biomni 通用生物医学 AI 智能体 bioRxiv 2025：双组件 Biomni-E1（环境）+ Biomni-A1（智能体）；动作空间由 AI 读 bioRxiv 25 学科×各100篇论文反向归纳 + 专家核验，落地为 150 专用工具 + 105 软件包 + 59 数据库（Python/R/Bash），大型在线库每库一统一自然语言接口避免工具爆炸；A1 闭环为检索增强规划→分步计划→**以可执行代码而非 function calling 执行**，无预设模板；8 个未见任务零样本稳健（因果基因排序/药物重定位/罕见病诊断/微生物组/分子克隆），458 个可穿戴数据文件自主分析、scRNA+ATAC 全流程并提假说、10 个分子克隆场景设计湿实验方案；平台 biomni.stanford.edu 开放（生信放映室，2026-09-10）
 ### machine-learning
 ||- [[raw/articles/GOLLuM-大模型不确定性校准优化-NatureMachineIntelligence2026]] — GOLLuM Nature Machine Intelligence 2026：EPFL Schwaller 组 LLM（T5）编码文本实验条件+GP预测+边际似然梯度联合训练，23任务top-5%覆盖率36.3%，Buchwald-Hartwig发现率24%→43%（GitHub: schwallergroup/gollum）
 ||- [[raw/articles/NatureMethods-VESM-ESM家族互相教学-变异效应预测]] — VESM Nature Methods 2026：多 ESM 模型 co-distillation，逐变异最小 LLR 聚合→知识压缩回单模型，ClinVar AUC 0.938（Bio暗物质雷达，2026）
 ||- [[raw/articles/Nature-Methods-IF-28-3-谁说单序列-PLM-到头了-VESM-让-ESM-家族互相教学-性能大幅跃升]] — VESM Nature Methods 2026 解读：ESM 家族互补盲区×co-distillation 变异效应预测
 - [[raw/papers/rao2021-msa-transformer-icml]] — MSA Transformer：轴向注意力+tied row attention 处理 MSA 的蛋白质语言模型，100M 参数/26M MSAs 预训练，无监督接触预测 top-L 长程精度 57.4 大幅超越 ESM-1b 与 Potts，8-16 条序列即可高精度预测（Rao R, ICML 2021, Facebook AI Research）
 - [[raw/papers/lin2023-esm2-esmfold-science]] — ESM-2/ESMFold：蛋白质语言模型 scaling 至 15B 参数涌现原子级结构，单序列端到端结构预测 CAMEO TM 0.83，ESM Metagenomic Atlas 折叠 >6.17 亿宏基因组蛋白（Lin Z, Science 2023）
+- [[raw/articles/hou2026-motifae-natcommun-DrugOne]] — MotifAE Nat Commun 2026：ESM2-650M + 稀疏自编码器 + 局部平滑性约束无监督分解 pLM 嵌入，40,960 维稀疏潜在空间，270 ELM 基序 AUROC 中位 0.88（vs SAE 0.80），193/270 AUROC>0.8、114/270>0.9；MotifAE-G 监督版 412 域稳定性 DMS 测试 Spearman 0.55 与物理能量方法相当（Hou C, Nat Commun 2026, 微信公众号·DrugOne）
+- [[raw/papers/hou2026-motifae-natcommun]] — MotifAE 原始论文（Nat Commun 2026）：ESM2-650M + 稀疏自编码器 + 局部平滑性约束无监督分解 pLM 嵌入为 40,960 维稀疏特征；230 万 AFDB 聚类蛋白训练；270 ELM 基序 AUROC 中位 0.88（vs SAE 0.80），193/270>0.8；残基重要性 Spearman 0.41（vs SAE 0.33）；MotifAE-G 用 412 域稳定性 DMS 筛选 1,583 稳定性特征测试 Spearman 0.55；通讯：Yufeng Shen（Columbia），NIH R35GM149527 + Simons SFARI #1019623 资助（Hou C, Liu D, Shen Y, Nat Commun 2026, Open access）
 - [[raw/papers/yang2026-esm-downstream-survey-quantbiol]] — ESM 下游应用综述：约100篇引用ESM六篇原始论文的高影响力工作，技术路线（预训练/微调/prompting）× 应用领域（结构预测/功能注释/蛋白设计/突变效应）双维度分类（Yang Q, Quant Biol 2026, 上海科技大学）
 - [[raw/papers/pan2026-lucavirus]] — LucaVirus 病毒多模态基础模型（NSR 正式版）：1B 参数 encoder-only，OpenVirus 15.7M 序列/25.4B tokens，暗物质 hallmark 发现（RdRP 100%/capsid 99.86%）、酶注释（湿实验验证 CL6/CL31）、适应度景观（RBD DMS 0.93；ProteinGym 追平 ESM3）、抗体筛选（命中率~1/2）+ LMAlign 嵌入比对（Pan Y-F, Natl Sci Rev 2026, 阿里云+中山大学）
 - [[raw/articles/NSR-中山大学施莽-LucaVirus大模型-病毒发现功能进化预测]] — NSR 论文解读：LucaVirus 10亿参数病毒基础模型，254亿token训练，四类病毒学任务（中国病毒学英文版公众号，2026-06-17）

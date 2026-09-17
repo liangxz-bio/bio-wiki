@@ -1,12 +1,13 @@
 ---
 title: "IsoDDE — Isomorphic Labs Drug Design Engine"
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-09-17
 type: entity
 tags: [protein-design, isodde, isomorphic-labs, structure-prediction, antibody, drug-design, ai-drug-discovery]
 domain: ai-drug-discovery
 sources:
   - raw/papers/isomorphic2026-isodde.md
+  - raw/articles/AnewDDE-AnewLabs-闭环智能体-AI制药-BioTender.md
 confidence: high
 ---
 
@@ -59,6 +60,7 @@ confidence: high
 - [[entities/dual-gpt-ab]] — DualGPT-AB 双阶段 GPT+RL 抗体设计，多性质约束内置，互补 IsoDDE 的预测能力
 - [[entities/tcr-prp]] — TCR-PRP 多肽识别谱系统，pLM 预测 T 细胞激活与自身抗原发现，疫苗设计上游免疫信息学工具
 - [[entities/pplm]] — PPLM 蛋白配对语言模型，聚焦 PPI 序列建模，与 IsoDDE 的应用方向互补
+- [[entities/anewdde]] — AnewDDE 在 FoldBench-AbAg 抗体-抗原 top-1 上自报 76.2%（IsoDDE 75.6%），同一赛道"技术报告 + 内部引擎"披露路径的对照（[[raw/articles/AnewDDE-AnewLabs-闭环智能体-AI制药-BioTender.md]]，2026-09-17 入库）
 
 ## 局限与未公开
 - 技术报告未提供完整方法学描述（架构细节未公开）

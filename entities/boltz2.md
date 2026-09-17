@@ -1,12 +1,13 @@
 ---
 title: "Boltz-2 — 蛋白质-配体共折叠虚拟筛选"
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-09-17
 type: entity
 tags: [structure-prediction, virtual-screening, protein-ligand, docking, ai-drug-discovery]
 domain: ai-drug-discovery
 sources:
   - raw/articles/AI筛药新工具-Boltz2-SoftMol-AINN-P1-DeepClust.md
+  - raw/articles/AnewDDE-AnewLabs-闭环智能体-AI制药-BioTender.md
 confidence: medium
 ---
 
@@ -30,6 +31,7 @@ Boltz-2 是 Boltz-1 的后续版本，采用蛋白质-配体**共折叠（cofold
 - [[entities/alphafold3]] — AF3 PoseBusters 76.4%，Boltz-2 为同类共折叠方法但聚焦虚拟筛选场景
 - [[entities/isodde]] — IsoDDE 声称蛋白-小分子预测超越 AF3，Boltz-2 提供不同技术路线
 - [[entities/pplm]] — PPLM 蛋白配对语言模型，基于序列的 PPI 建模与 Boltz-2 共折叠虚拟筛选互补
+- [[entities/anewdde]] — AnewDDE 的 AnewAffinity 以 Boltz-2 为速度-精度对照基线（自报 1.5 s/配体对、R² 0.553 vs Boltz-2 20 s、0.486），同时承认部分靶点 Boltz-2 更好（[[raw/articles/AnewDDE-AnewLabs-闭环智能体-AI制药-BioTender.md]]）
 
 ## 局限
 

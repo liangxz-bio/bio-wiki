@@ -4,6 +4,85 @@
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
 
+## [2026-09-17] ingest | AnewDDE 闭环智能体药物研发引擎（Anew Labs，52 页技术报告 2026-09-16，公众号·BioTender）
+### raw/articles
+- Created: raw/articles/AnewDDE-AnewLabs-闭环智能体-AI制药-BioTender.md（全文 + 15 张微信原图引用 + 来源/融资块 + "编辑备注：核验边界"表；sha256 对含 frontmatter 但剔除 sha256 行后的内容计算）
+- Source: 微信公众号·BioTender（署名 Max）https://mp.weixin.qq.com/s/GP13dtF-ZcAOcKwJ3rDlqA，2026-09-16
+- 技术报告 Anew Labs《AnewDDE》52 页（2026-09-16 落款）**未公开获取**；官网 anewbt.com Research 列表截至 2026-09-17 最新条目为 2026-03 AnewSampling → 文中性能数字均为解读转述，未独立核验（confidence: medium）
+- 融资事实可独立核验：Reuters 2026-09-16（2.9 亿美元首轮）；新浪财经/联合早报补充投后估值约 15 亿美元、字节保留 56% 控股、HSG 等领投
+- Core: 四模块闭环 AnewFold / AnewAffinity / AnewDesign / AnewMind；抗体-抗原 top-1 76.2%（FoldBench-AbAg，vs AF3 48.8%/Boltz-1 34.4%/IsoDDE 75.6%）、蛋白-配体共折叠 77.4%、分子胶三元 71.8%、口袋 AUPRC 0.751（隐式口袋 0.663）；亲和力 1.5 s/配体对、R² 0.553（vs Boltz-2 20 s、0.486；AnewFEP 约 33000 s）；湿实验 Lab-in-the-Loop 3092 初筛→287 簇→50 条测 SPR→7 个 KD<400 nM→实测回喂出 100 克隆→两轮 150 克隆 16 个个位数 nM（10.7%，最好 1.8 nM）；AnewMind 千亿参数 + 自建 PharmBench（50 场景/200 题）54.65% 排第三
+- 边界（原文自陈 + 入库核验）：PharmBench 内部基准不可复现、纳米抗体案例仅一个匿名靶点、四模型全闭源无 API；模块命名与官网现有条目（AnewSampling/AnewOmni/AnewMind）不一致，待报告公开后核实
+### entities
+- Created: entities/anewdde.md（实体页：四模块指标表 + 湿实验闭环七步 + PharmBench + 边界与解读说明 + 11 条交叉引用；confidence: medium）
+- Updated: entities/isodde.md（sources +1；交叉引用 +1：同一 FoldBench-AbAg 基准上的正面对照）
+- Updated: entities/boltz2.md（updated 日期；交叉引用 +1：AnewAffinity 的速度-精度对照基线）
+### index.md
+- Entities: +1（[[anewdde]]，排在 [[isodde]] 之后便于对照）
+- Raw sources (ai-drug-discovery): +1（[[raw/articles/AnewDDE-AnewLabs-闭环智能体-AI制药-BioTender]]）
+- Updated page count: 243 → 245 (243 + 1 entity + 1 raw article)
+### cross-ref
+- raw/articles/AnewDDE-AnewLabs-闭环智能体-AI制药-BioTender.md ↔ entities/anewdde.md（frontmatter related_entities 双向）
+- entities/anewdde.md ↔ entities/isodde.md（76.2% vs 75.6%）、entities/boltz2.md（1.5 s vs 20 s 亲和力对照）
+### 备注
+- 遵守现有约定：新条目写在文件头部块（log.md 头部块最新在前，2026-08-27~09-11 各批次均如此），未 append 到文件末尾；文件末尾 2026-05-04~09-07 块为历史正序块
+- 2026-09-09~09-11 批次（RFOptimization/PEPE/BioMatrix/Co-Scientist/Biomni 等）的 index+log 改动此前未提交，本次先单独 commit 补齐，再提交 AnewDDE 入库
+
+
+## [2026-09-11] ingest | RFOptimization 原始论文 PDF + MinerU markdown（bioRxiv 2026, Baker 组）
+- Created: raw/papers/zhang2026-rfooptimization-biorxiv.md（MinerU full.md 1141 行 + frontmatter；清理 OCR 连字错误 difusion→diffusion/scafold→scaffold/difer→differ/eficien→efficien 等，删除 18 处重复 bioRxiv 样板句）
+- Created: raw/papers/zhang2026-rfooptimization-biorxiv.pdf（源 PDF 副本，2.87 MB，sha256: 0d6d79b6d250d3c3bdf566bf93c6549c64565e310a37224143641c2c1e0ed620）
+- Updated: raw/papers/images/（78 张 MinerU 图片合并入共享目录，956→1034）
+- Updated: index.md（### ai-drug-discovery raw/papers 区域新增条目，Total pages 242→243）
+- Source: /mnt/d/Ref/2026-bioRxiv-David Baker-RFOptimization.pdf，DOI: 10.64898/2026.09.04.749184
+- **术语核实**：`objective-oriented paradigm` 为论文原话；`Latent Physics Steering` / `molecular world model` 在论文中出现 **0 次**，系 DrugAI 解读自创框架——已记入 note 以免误标为论文主张
+- 关联: 回填双链至 raw/articles/RFOptimization-结构预测模型做蛋白质优化器-Baker-bioRxiv2026.md（BioTender）与 raw/articles/RFOptimization-Baker设计优化工具-AI-ProteinDesign-bioRxiv2026.md
+
+## [2026-09-10] ingest | Biomni 斯坦福通用生物医学智能体（bioRxiv 2025）
+- Created: raw/articles/Biomni-斯坦福通用生物医学智能体-生信放映室.md（含 2 张微信原图）
+- Updated: index.md（### ai4s 区域新增条目，与 Co-Scientist / Claude Science 相邻便于对照；Total pages 241→242）
+- Source: 微信公众号·生信放映室（署名作者 Biohacker）https://mp.weixin.qq.com/s/0-6Ndf-MGQ2VWtaGfjsHYw，论文 DOI: 10.1101/2025.05.30.656746（Huang K et al., bioRxiv 2025-06-02, PMID 40501924）
+- Note: 动作空间 150 工具 + 105 软件包 + 59 数据库（由 AI 读 25 学科×100 篇论文反向归纳 + 专家核验）；以可执行代码替代 function calling；8 个未见任务零样本；平台 biomni.stanford.edu
+- 关联: Co-Scientist（同一公众号，假说生成 vs 流程执行路线对照）、Claude Science（63 数据源→24 MCP server 的上下文压缩路线对照）
+
+## [2026-09-10] ingest | BioMatrix 公众号解读之二（公众号·生物信风港）
+- Created: raw/articles/BioMatrix-统一生物表征语言-生物信风港解读2026.md（含 4 张微信原图，批判性视角 + 三条边界）
+- Updated: index.md（### ai-drug-discovery 区域新增条目，Total pages 240→241）
+- Updated: raw/articles/pei2026-biomatrix-arXiv-AIDrugLab.md — 新增 related_articles 双向关联
+- Source: 微信公众号·生物信风港 https://mp.weixin.qq.com/s/8_ZDLBZKyJG8mtNtMVmfYQ，论文 arXiv:2606.22138
+- 关联: 与 raw/articles/pei2026-biomatrix-arXiv-AIDrugLab.md（公众号·AI药物设计实验室）为同一论文双解读，本篇侧重设计哲学与作者自陈限制
+
+## [2026-09-09] ingest | RFOptimization 公众号解读之二（公众号·AI-Protein Design）
+- Created: raw/articles/RFOptimization-Baker设计优化工具-AI-ProteinDesign-bioRxiv2026.md（含 9 张微信原图，含完整原文翻译 + 逐靶点数据）
+- Updated: index.md（### ai-drug-discovery 区域新增条目，Total pages 239→240）
+- Source: 微信公众号·AI-Protein Design https://mp.weixin.qq.com/s/Bs_eusWqjjJ5KLta_c9xZw，论文 DOI: 10.64898/2026.09.04.749184
+- 关联: 与 raw/articles/RFOptimization-结构预测模型做蛋白质优化器-Baker-bioRxiv2026.md（公众号·BioTender）为同一论文双解读，互为补充
+
+## [2026-09-09] ingest | PEPE 原始论文 PDF + MinerU markdown（Bioinformatics 2026）
+- Created: raw/papers/zhong2026-pepe-bioinformatics.md（MinerU full.md 212 行，清理 OCR 噪声：PFPE→PEPE、Niccolo �→Niccolò、seguential→sequential、PL MFit→PLMFit 等）
+- Created: raw/papers/zhong2026-pepe-bioinformatics.pdf（源 PDF 副本，sha256: e2f3bfff3b1a3d3f6a3a79e809f332100ada03a4c256df4cca512567643577df）
+- Updated: raw/papers/images/（5 张 MinerU 图片合并入共享目录，951→956）
+- Updated: index.md（### bioinfo-pipeline raw/papers 区域新增条目）
+- Source: /mnt/d/Ref/2026-Bioinformatics-PEPE-btag375.pdf，DOI: 10.1093/bioinformatics/btag375
+- 关联: raw/articles/PEPE-蛋白嵌入多模态并行提取-Bioinformatics2026.md（公众号解读，同日入库）
+
+## [2026-09-09] ingest | PEPE 蛋白嵌入多模态并行提取（Bioinformatics 2026，奥斯陆大学）
+- Created: raw/articles/PEPE-蛋白嵌入多模态并行提取-Bioinformatics2026.md（含 5 张微信原图引用）
+- Updated: index.md（### bioinfo-pipeline 区域新增条目，Total pages 237→238）
+- Source: 微信公众号·Omics Pro https://mp.weixin.qq.com/s/3rKuWkprz9iuDY_tqrUXCw，论文 DOI: 10.1093/bioinformatics/btag375（Zhong J, Cardente N, Sandve GK, Bashour H, Abbate MF, Greiff V. Bioinformatics 42(6):btag375, 2026）
+- Note: 并行流式架构 + 多模态单次计算；峰值内存不随输出量线性增长；GitHub csi-greifflab/pepe-cli（MIT）/PyPI pepe-cli/Zenodo 15912054
+
+## [2026-09-09] ingest | RFOptimization Baker 组 bioRxiv 2026（结构预测模型做蛋白质优化器）
+- Created: raw/articles/RFOptimization-结构预测模型做蛋白质优化器-Baker-bioRxiv2026.md（含 14 张微信原图引用）
+- Updated: index.md（### ai-drug-discovery 区域新增条目，Total pages 236→237）
+- Source: 公众号·BioTender https://mp.weixin.qq.com/s/ZwpeTxPuMCEwd_kWr2dynQ，论文 DOI: 10.64898/2026.09.04.749184（Zhang O, Wang J, ... Baker D. bioRxiv preprint, posted 2026-09-07）
+- Note: RFO 把 AF3 类结构预测模型倒过来当优化器；蛋白-蛋白结合剂通过率 6.73%→22.31%、环肽 1.25%→12.57%、小分子 5.62%→24.91%；三模型共识 12.08%；26 GPU分钟/设计；**全部为计算筛选通过率，无湿实验验证**
+
+## [2026-09-04] ingest | Co-Scientist Nature 2026（Google DeepMind 多智能体科学假说生成）
+- Created: raw/articles/Co-Scientist-Google多智能体科学假说-Nature2026.md（含 4 张微信原图引用）
+- Updated: index.md（### ai4s 区域新增条目，Total pages 235→236）
+- Source: 生信放映室微信公众号 https://mp.weixin.qq.com/s/r0xtBOPIo7DEBLD2ikT5mA，论文 DOI: 10.1038/s41586-026-10644-y（Gottweis J, et al. Nature 655(8122):487-496, 2026）
+- Note: Gemini 多智能体"生成-辩论-进化"提出可实验验证假说；AML 药物重定位体外验证、协同联用、肝纤维化表观遗传靶点、微生物盲测重现未发表机制；扩展测试时算力
+
 ## [2026-09-04] create | Claude Science 五条设计哲学（AI4S Agent 解读）— 入库
 - Created: concepts/claude-science-ai4s-design-philosophy.md (concept 页，五条设计哲学：科学仪器范式/配置实验日志/Artifact-first 血缘DAG/架构反幻觉/渐进式上下文)
 - Updated: index.md (Concepts 区域新增条目，Total pages 223→232)
@@ -1355,3 +1434,57 @@
 - 无改动（条目 [[raw/papers/watson2023-rfdiffusion-nature]] 已存在，描述仍准确，Total pages 不变）
 ### entities
 - de-novo-protein-design.md: sources 引用不变（文件名未变）
+
+## [2026-09-04] ingest | Rhobin Cell 2026 公众号解读（Chen Y, Cell 2026, AI-Protein Design）
+### raw/articles
+- Created: raw/articles/chen2026-rhobin-cell-AI-ProteinDesign.md — frontmatter added (source_url/sha256/citation/DOI: 10.1016/j.cell.2026.08.007/PMID: 42679818/domain: ai-drug-discovery/paper_type: news-article/note)
+- Source: 微信公众号 https://mp.weixin.qq.com/s/ganT1ObUlxzB0MXrbXCeNg ，AI-Protein Design 公众号
+- 对应论文：Chen Y, Yserentant K, Hong K, et al. De novo pan-rhodamine binders for fluorescence microscopy from mammalian cells to extremophiles. Cell 2026
+- Key data: 9 designs → 8 success (8/9 hit rate); Rhobin9/JF660 KD=91 nM; PDB: 9Y1T/9Y1S, design-vs-crystal RMSD 0.6 Å; 哺乳动物细胞归一化亮度 229× 背景, 超越 HaloTag7/reHaloF/frFAST; STED <100 nm 分辨率; 单分子 3.5 min/10000 帧 (vs HaloTag 40s 漂白); Tm >95°C, 75°C/pH 2 嗜酸热硫化叶菌体内成像
+- Corresponding paper not yet in raw/papers/; add chen2026-rhobin-cell.md when PDF/MinerU is available
+### index.md
+- Updated page count: 232 → 233
+- Raw sources (ai-drug-discovery): +1 ([[raw/articles/chen2026-rhobin-cell-AI-ProteinDesign]])
+
+## [2026-09-04] ingest | MotifAE Nat Commun 2026 公众号解读（Hou C, Nat Commun 2026, DrugOne）
+### raw/articles
+- Created: raw/articles/hou2026-motifae-natcommun-DrugOne.md — frontmatter added (source_url/sha256/citation/DOI: 10.1038/s41467-026-77333-2/PMID: 41279608 (preprint)/domain: machine-learning/paper_type: news-article/note)
+- Source: 微信公众号 https://mp.weixin.qq.com/s/EcyYOM8AOFNxj_yqjv4egw ，DrugOne/DrugAI 公众号
+- 对应论文：Hou C, Liu D, Shen Y. Unsupervised discovery of functional sequence patterns from protein language model with MotifAE. Nat Commun 2026
+- Key innovation: ESM2-650M + 稀疏自编码器 (SAE) + 局部平滑性约束，40,960 维稀疏潜在空间，230 万 AFDB 聚类蛋白训练
+- Key results: 270 ELM 基序 AUROC 中位 0.88 (vs SAE 0.80), 193/270 AUROC>0.8; 残基重要性 Spearman 0.41 (vs SAE 0.33); MotifAE-G 412 域稳定性 DMS 测试 Spearman 0.55
+- Corresponding paper not yet in raw/papers/; add hou2026-motifae-natcommun.md when PDF/MinerU is available
+### index.md
+- Updated page count: 233 → 234
+- Raw sources (machine-learning): +1 ([[raw/articles/hou2026-motifae-natcommun-DrugOne]])
+
+## [2026-09-04] ingest | MotifAE Nat Commun 2026 原始论文 PDF + MinerU markdown（Hou C, Nat Commun 2026）
+### raw/papers
+- Created: raw/papers/hou2026-motifae-natcommun.md — YAML frontmatter added (citation/sha256: 85d77e93.../DOI: 10.1038/s41467-026-77333-2/domain: machine-learning/paper_type: original-research/extracted_by: MinerU/source_file: /mnt/d/Ref/2026-NC-MotifAE-useESM2.pdf)
+- Source: /mnt/d/Ref/2026-NC-MotifAE-useESM2.pdf (2.5M, MinerU parsed, Open access)
+- Created: raw/papers/hou2026-motifae-natcommun.pdf (源 PDF 副本)
+- 44 images from MinerU extraction copied to raw/papers/images/ (862→906)
+- MinerU full.md: 451 lines（已 strip "Article in Press" 共享声明尾部 + 移除 boilerplate "Article | Article in Press" 元信息）
+- 通讯：Yufeng Shen（Columbia），NIH R35GM149527 + Simons SFARI #1019623 资助；Open Access (CC BY-NC-ND 4.0)
+- Core: ESM2-650M + 稀疏自编码器 + 局部平滑性约束，将 pLM 嵌入分解为 40,960 维稀疏潜在空间；训练数据 230 万 AFDB 聚类蛋白；270 ELM 基序 AUROC 中位 0.88（vs SAE 0.80），193/270>0.8、114/270>0.9；残基重要性 Spearman 0.41（vs SAE 0.33）；MotifAE-G 监督版 412 域稳定性 DMS 测试 Spearman 0.55
+### index.md
+- Updated page count: 234 → 235
+- Raw sources (machine-learning): +1 ([[raw/papers/hou2026-motifae-natcommun]])
+### cross-ref
+- raw/papers/hou2026-motifae-natcommun.md: WeChat解读 +1 (hou2026-motifae-natcommun-DrugOne)
+- raw/articles/hou2026-motifae-natcommun-DrugOne.md: 对应论文 +1 (hou2026-motifae-natcommun); frontmatter note 已删除 "Corresponding paper not yet in raw/papers/" 字样，新增 related_papers 字段
+
+## [2026-09-07] ingest | BioMatrix arXiv 2026 原始论文 PDF + MinerU markdown（Pei Q et al., arXiv 2606.22138）
+### raw/papers
+- Created: raw/papers/pei2026-biomatrix-arxiv.md — YAML frontmatter added (citation/sha256: e9a5bb6a.../arxiv: 2606.22138/domain: ai-drug-discovery/paper_type: preprint/extracted_by: MinerU/source_file: /mnt/d/Ref/2026-arXiv-BioMatrix.pdf)
+- Source: /mnt/d/Ref/2026-arXiv-BioMatrix.pdf (4.2M, MinerU parsed, arXiv preprint, no journal)
+- 45 images from MinerU extraction copied to raw/papers/images/ (906→951)
+- MinerU full.md: 1088 lines（已修补 OCR 误将 "Table 31:" 拆成 T<sub>a</sub>bl<sub>e</sub> 3 1 模式；3 处页脚 "Continued on next page" / "Annotation Prediction" 复原）
+- Core: 单一 Qwen3 解码器骨干（1.7B/4B），统一离散 token 空间覆盖序列/结构/语言，分子侧 MolStrucTok（512 项球坐标码本 + SELFIES 原子对齐 → 11,294 高频联合 token），蛋白侧 GCP-VQVAE（4096 项残基级码本）；持续预训练 304.4B token + 24.85M 指令 SFT；80 项任务 77 项 SOTA/具竞争力：SMolInstruct EM 65.07%/有效率 99.52%、QM9-2014 εHOMO/εLUMO/Δε MAE 较 NExT-Mol 缩小 3-4×、逆折叠恢复率 75.50%（vs DPLM-2-3B 61.67%）、PDBBindv2020 亲和力 RMSE 1.260/Pearson 0.737/MAE 0.972 三项最佳
+- 通讯：Rui Yan (rui.yan@whu.edu.cn)、Lijun Wu (wulijun@pjlab.org.cn)；代码 github.com/QizhiPei/biomatrix，HF QizhiPei/BioMatrix-4B-SFT
+### index.md
+- (raw/papers 计数通过 raw 阶段增量体现，本批未变更 Total 页数)
+- Raw sources (ai-drug-discovery): +1 ([[raw/papers/pei2026-biomatrix-arxiv]])
+### cross-ref
+- raw/papers/pei2026-biomatrix-arxiv.md: WeChat解读 +1 (pei2026-biomatrix-arXiv-AIDrugLab)
+- raw/articles/pei2026-biomatrix-arXiv-AIDrugLab.md: 对应论文 +1 (pei2026-biomatrix-arxiv); frontmatter `related_papers` 字段从 TODO 占位更新为有效路径
